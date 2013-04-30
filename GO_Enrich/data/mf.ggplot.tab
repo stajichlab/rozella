@@ -1,0 +1,329 @@
+GO_ID	GO_Term	Count	Percentage	Samples
+GO:0000988	protein binding transcription factor activity	25	0.21	Anid
+GO:0000988	protein binding transcription factor activity	30	0.35	Calb
+GO:0000988	protein binding transcription factor activity	10	0.14	Cneo
+GO:0000988	protein binding transcription factor activity	2	0.09	Ecun
+GO:0000988	protein binding transcription factor activity	25	0.29	Ncra
+GO:0000988	protein binding transcription factor activity	9	0.24	Rozella
+GO:0000988	protein binding transcription factor activity	90	1.26	Spom
+GO:0000988	protein binding transcription factor activity	132	2.31	Scer
+GO:0001071	nucleic acid binding transcription factor activity	404	3.46	Anid
+GO:0001071	nucleic acid binding transcription factor activity	306	3.53	Calb
+GO:0001071	nucleic acid binding transcription factor activity	137	1.99	Cneo
+GO:0001071	nucleic acid binding transcription factor activity	25	1.16	Ecun
+GO:0001071	nucleic acid binding transcription factor activity	160	1.87	Ncra
+GO:0001071	nucleic acid binding transcription factor activity	37	1.00	Rozella
+GO:0001071	nucleic acid binding transcription factor activity	203	2.84	Spom
+GO:0001071	nucleic acid binding transcription factor activity	160	2.80	Scer
+GO:0003677	DNA binding	839	7.18	Anid
+GO:0003677	DNA binding	547	6.31	Calb
+GO:0003677	DNA binding	404	5.86	Cneo
+GO:0003677	DNA binding	201	9.33	Ecun
+GO:0003677	DNA binding	591	6.90	Ncra
+GO:0003677	DNA binding	241	6.49	Rozella
+GO:0003677	DNA binding	516	7.23	Spom
+GO:0003677	DNA binding	377	6.59	Scer
+GO:0003723	RNA binding	203	1.74	Anid
+GO:0003723	RNA binding	234	2.70	Calb
+GO:0003723	RNA binding	173	2.51	Cneo
+GO:0003723	RNA binding	82	3.81	Ecun
+GO:0003723	RNA binding	189	2.21	Ncra
+GO:0003723	RNA binding	108	2.91	Rozella
+GO:0003723	RNA binding	341	4.78	Spom
+GO:0003723	RNA binding	668	11.68	Scer
+GO:0003729	mRNA binding	11	0.09	Anid
+GO:0003729	mRNA binding	1	0.01	Calb
+GO:0003729	mRNA binding	1	0.01	Cneo
+GO:0003729	mRNA binding	0	0.00	Ecun
+GO:0003729	mRNA binding	9	0.11	Ncra
+GO:0003729	mRNA binding	2	0.05	Rozella
+GO:0003729	mRNA binding	44	0.62	Spom
+GO:0003729	mRNA binding	69	1.21	Scer
+GO:0003735	structural constituent of ribosome	117	1.00	Anid
+GO:0003735	structural constituent of ribosome	102	1.18	Calb
+GO:0003735	structural constituent of ribosome	114	1.65	Cneo
+GO:0003735	structural constituent of ribosome	66	3.06	Ecun
+GO:0003735	structural constituent of ribosome	126	1.47	Ncra
+GO:0003735	structural constituent of ribosome	98	2.64	Rozella
+GO:0003735	structural constituent of ribosome	257	3.60	Spom
+GO:0003735	structural constituent of ribosome	224	3.92	Scer
+GO:0003924	GTPase activity	57	0.49	Anid
+GO:0003924	GTPase activity	55	0.63	Calb
+GO:0003924	GTPase activity	32	0.46	Cneo
+GO:0003924	GTPase activity	14	0.65	Ecun
+GO:0003924	GTPase activity	57	0.67	Ncra
+GO:0003924	GTPase activity	58	1.56	Rozella
+GO:0003924	GTPase activity	60	0.84	Spom
+GO:0003924	GTPase activity	58	1.01	Scer
+GO:0004386	helicase activity	213	1.82	Anid
+GO:0004386	helicase activity	182	2.10	Calb
+GO:0004386	helicase activity	198	2.87	Cneo
+GO:0004386	helicase activity	93	4.32	Ecun
+GO:0004386	helicase activity	201	2.35	Ncra
+GO:0004386	helicase activity	135	3.64	Rozella
+GO:0004386	helicase activity	104	1.46	Spom
+GO:0004386	helicase activity	85	1.49	Scer
+GO:0004518	nuclease activity	138	1.18	Anid
+GO:0004518	nuclease activity	133	1.54	Calb
+GO:0004518	nuclease activity	85	1.23	Cneo
+GO:0004518	nuclease activity	43	2.00	Ecun
+GO:0004518	nuclease activity	125	1.46	Ncra
+GO:0004518	nuclease activity	53	1.43	Rozella
+GO:0004518	nuclease activity	137	1.92	Spom
+GO:0004518	nuclease activity	90	1.57	Scer
+GO:0004871	signal transducer activity	82	0.70	Anid
+GO:0004871	signal transducer activity	55	0.63	Calb
+GO:0004871	signal transducer activity	52	0.75	Cneo
+GO:0004871	signal transducer activity	2	0.09	Ecun
+GO:0004871	signal transducer activity	73	0.85	Ncra
+GO:0004871	signal transducer activity	50	1.35	Rozella
+GO:0004871	signal transducer activity	46	0.64	Spom
+GO:0004871	signal transducer activity	38	0.66	Scer
+GO:0005198	structural molecule activity	29	0.25	Anid
+GO:0005198	structural molecule activity	25	0.29	Calb
+GO:0005198	structural molecule activity	14	0.20	Cneo
+GO:0005198	structural molecule activity	7	0.32	Ecun
+GO:0005198	structural molecule activity	20	0.23	Ncra
+GO:0005198	structural molecule activity	19	0.51	Rozella
+GO:0005198	structural molecule activity	22	0.31	Spom
+GO:0005198	structural molecule activity	356	6.23	Scer
+GO:0008092	cytoskeletal protein binding	41	0.35	Anid
+GO:0008092	cytoskeletal protein binding	42	0.48	Calb
+GO:0008092	cytoskeletal protein binding	31	0.45	Cneo
+GO:0008092	cytoskeletal protein binding	8	0.37	Ecun
+GO:0008092	cytoskeletal protein binding	45	0.53	Ncra
+GO:0008092	cytoskeletal protein binding	26	0.70	Rozella
+GO:0008092	cytoskeletal protein binding	76	1.06	Spom
+GO:0008092	cytoskeletal protein binding	65	1.14	Scer
+GO:0008134	transcription factor binding	6	0.05	Anid
+GO:0008134	transcription factor binding	4	0.05	Calb
+GO:0008134	transcription factor binding	3	0.04	Cneo
+GO:0008134	transcription factor binding	2	0.09	Ecun
+GO:0008134	transcription factor binding	6	0.07	Ncra
+GO:0008134	transcription factor binding	3	0.08	Rozella
+GO:0008134	transcription factor binding	5	0.07	Spom
+GO:0008134	transcription factor binding	66	1.15	Scer
+GO:0008135	translation factor activity, nucleic acid binding	93	0.80	Anid
+GO:0008135	translation factor activity, nucleic acid binding	71	0.82	Calb
+GO:0008135	translation factor activity, nucleic acid binding	80	1.16	Cneo
+GO:0008135	translation factor activity, nucleic acid binding	41	1.90	Ecun
+GO:0008135	translation factor activity, nucleic acid binding	63	0.74	Ncra
+GO:0008135	translation factor activity, nucleic acid binding	24	0.65	Rozella
+GO:0008135	translation factor activity, nucleic acid binding	68	0.95	Spom
+GO:0008135	translation factor activity, nucleic acid binding	45	0.79	Scer
+GO:0008168	methyltransferase activity	191	1.63	Anid
+GO:0008168	methyltransferase activity	144	1.66	Calb
+GO:0008168	methyltransferase activity	132	1.91	Cneo
+GO:0008168	methyltransferase activity	40	1.86	Ecun
+GO:0008168	methyltransferase activity	132	1.54	Ncra
+GO:0008168	methyltransferase activity	60	1.62	Rozella
+GO:0008168	methyltransferase activity	123	1.72	Spom
+GO:0008168	methyltransferase activity	92	1.61	Scer
+GO:0008233	peptidase activity	364	3.11	Anid
+GO:0008233	peptidase activity	325	3.75	Calb
+GO:0008233	peptidase activity	234	3.39	Cneo
+GO:0008233	peptidase activity	86	3.99	Ecun
+GO:0008233	peptidase activity	316	3.69	Ncra
+GO:0008233	peptidase activity	131	3.53	Rozella
+GO:0008233	peptidase activity	204	2.86	Spom
+GO:0008233	peptidase activity	94	1.64	Scer
+GO:0008289	lipid binding	74	0.63	Anid
+GO:0008289	lipid binding	70	0.81	Calb
+GO:0008289	lipid binding	53	0.77	Cneo
+GO:0008289	lipid binding	3	0.14	Ecun
+GO:0008289	lipid binding	73	0.85	Ncra
+GO:0008289	lipid binding	43	1.16	Rozella
+GO:0008289	lipid binding	60	0.84	Spom
+GO:0008289	lipid binding	95	1.66	Scer
+GO:0008565	protein transporter activity	23	0.20	Anid
+GO:0008565	protein transporter activity	27	0.31	Calb
+GO:0008565	protein transporter activity	25	0.36	Cneo
+GO:0008565	protein transporter activity	6	0.28	Ecun
+GO:0008565	protein transporter activity	26	0.30	Ncra
+GO:0008565	protein transporter activity	16	0.43	Rozella
+GO:0008565	protein transporter activity	58	0.81	Spom
+GO:0008565	protein transporter activity	52	0.91	Scer
+GO:0016301	kinase activity	554	4.74	Anid
+GO:0016301	kinase activity	574	6.63	Calb
+GO:0016301	kinase activity	490	7.10	Cneo
+GO:0016301	kinase activity	158	7.34	Ecun
+GO:0016301	kinase activity	430	5.02	Ncra
+GO:0016301	kinase activity	287	7.73	Rozella
+GO:0016301	kinase activity	313	4.38	Spom
+GO:0016301	kinase activity	199	3.48	Scer
+GO:0016491	oxidoreductase activity	2039	17.45	Anid
+GO:0016491	oxidoreductase activity	1046	12.08	Calb
+GO:0016491	oxidoreductase activity	864	12.53	Cneo
+GO:0016491	oxidoreductase activity	74	3.44	Ecun
+GO:0016491	oxidoreductase activity	1221	14.26	Ncra
+GO:0016491	oxidoreductase activity	254	6.84	Rozella
+GO:0016491	oxidoreductase activity	414	5.80	Spom
+GO:0016491	oxidoreductase activity	278	4.86	Scer
+GO:0016746	transferase activity, transferring acyl groups	211	1.81	Anid
+GO:0016746	transferase activity, transferring acyl groups	151	1.74	Calb
+GO:0016746	transferase activity, transferring acyl groups	109	1.58	Cneo
+GO:0016746	transferase activity, transferring acyl groups	30	1.39	Ecun
+GO:0016746	transferase activity, transferring acyl groups	153	1.79	Ncra
+GO:0016746	transferase activity, transferring acyl groups	52	1.40	Rozella
+GO:0016746	transferase activity, transferring acyl groups	110	1.54	Spom
+GO:0016746	transferase activity, transferring acyl groups	118	2.06	Scer
+GO:0016757	transferase activity, transferring glycosyl groups	144	1.23	Anid
+GO:0016757	transferase activity, transferring glycosyl groups	185	2.14	Calb
+GO:0016757	transferase activity, transferring glycosyl groups	126	1.83	Cneo
+GO:0016757	transferase activity, transferring glycosyl groups	17	0.79	Ecun
+GO:0016757	transferase activity, transferring glycosyl groups	130	1.52	Ncra
+GO:0016757	transferase activity, transferring glycosyl groups	54	1.45	Rozella
+GO:0016757	transferase activity, transferring glycosyl groups	113	1.58	Spom
+GO:0016757	transferase activity, transferring glycosyl groups	100	1.75	Scer
+GO:0016765	transferase activity, transferring alkyl or aryl (other than methyl) groups	38	0.33	Anid
+GO:0016765	transferase activity, transferring alkyl or aryl (other than methyl) groups	44	0.51	Calb
+GO:0016765	transferase activity, transferring alkyl or aryl (other than methyl) groups	24	0.35	Cneo
+GO:0016765	transferase activity, transferring alkyl or aryl (other than methyl) groups	4	0.19	Ecun
+GO:0016765	transferase activity, transferring alkyl or aryl (other than methyl) groups	49	0.57	Ncra
+GO:0016765	transferase activity, transferring alkyl or aryl (other than methyl) groups	9	0.24	Rozella
+GO:0016765	transferase activity, transferring alkyl or aryl (other than methyl) groups	52	0.73	Spom
+GO:0016765	transferase activity, transferring alkyl or aryl (other than methyl) groups	39	0.68	Scer
+GO:0016779	nucleotidyltransferase activity	159	1.36	Anid
+GO:0016779	nucleotidyltransferase activity	157	1.81	Calb
+GO:0016779	nucleotidyltransferase activity	166	2.41	Cneo
+GO:0016779	nucleotidyltransferase activity	101	4.69	Ecun
+GO:0016779	nucleotidyltransferase activity	139	1.62	Ncra
+GO:0016779	nucleotidyltransferase activity	71	1.91	Rozella
+GO:0016779	nucleotidyltransferase activity	114	1.60	Spom
+GO:0016779	nucleotidyltransferase activity	71	1.24	Scer
+GO:0016791	phosphatase activity	100	0.86	Anid
+GO:0016791	phosphatase activity	139	1.60	Calb
+GO:0016791	phosphatase activity	76	1.10	Cneo
+GO:0016791	phosphatase activity	20	0.93	Ecun
+GO:0016791	phosphatase activity	106	1.24	Ncra
+GO:0016791	phosphatase activity	50	1.35	Rozella
+GO:0016791	phosphatase activity	98	1.37	Spom
+GO:0016791	phosphatase activity	96	1.68	Scer
+GO:0016798	hydrolase activity, acting on glycosyl bonds	471	4.03	Anid
+GO:0016798	hydrolase activity, acting on glycosyl bonds	120	1.39	Calb
+GO:0016798	hydrolase activity, acting on glycosyl bonds	90	1.30	Cneo
+GO:0016798	hydrolase activity, acting on glycosyl bonds	13	0.60	Ecun
+GO:0016798	hydrolase activity, acting on glycosyl bonds	198	2.31	Ncra
+GO:0016798	hydrolase activity, acting on glycosyl bonds	31	0.84	Rozella
+GO:0016798	hydrolase activity, acting on glycosyl bonds	119	1.67	Spom
+GO:0016798	hydrolase activity, acting on glycosyl bonds	47	0.82	Scer
+GO:0016810	hydrolase activity, acting on carbon-nitrogen (but not peptide) bonds	97	0.83	Anid
+GO:0016810	hydrolase activity, acting on carbon-nitrogen (but not peptide) bonds	88	1.02	Calb
+GO:0016810	hydrolase activity, acting on carbon-nitrogen (but not peptide) bonds	66	0.96	Cneo
+GO:0016810	hydrolase activity, acting on carbon-nitrogen (but not peptide) bonds	10	0.46	Ecun
+GO:0016810	hydrolase activity, acting on carbon-nitrogen (but not peptide) bonds	67	0.78	Ncra
+GO:0016810	hydrolase activity, acting on carbon-nitrogen (but not peptide) bonds	23	0.62	Rozella
+GO:0016810	hydrolase activity, acting on carbon-nitrogen (but not peptide) bonds	71	0.99	Spom
+GO:0016810	hydrolase activity, acting on carbon-nitrogen (but not peptide) bonds	61	1.07	Scer
+GO:0016829	lyase activity	264	2.26	Anid
+GO:0016829	lyase activity	186	2.15	Calb
+GO:0016829	lyase activity	141	2.04	Cneo
+GO:0016829	lyase activity	17	0.79	Ecun
+GO:0016829	lyase activity	185	2.16	Ncra
+GO:0016829	lyase activity	46	1.24	Rozella
+GO:0016829	lyase activity	95	1.33	Spom
+GO:0016829	lyase activity	85	1.49	Scer
+GO:0016853	isomerase activity	190	1.63	Anid
+GO:0016853	isomerase activity	159	1.84	Calb
+GO:0016853	isomerase activity	149	2.16	Cneo
+GO:0016853	isomerase activity	55	2.55	Ecun
+GO:0016853	isomerase activity	164	1.92	Ncra
+GO:0016853	isomerase activity	52	1.40	Rozella
+GO:0016853	isomerase activity	85	1.19	Spom
+GO:0016853	isomerase activity	60	1.05	Scer
+GO:0016874	ligase activity	334	2.86	Anid
+GO:0016874	ligase activity	297	3.43	Calb
+GO:0016874	ligase activity	266	3.86	Cneo
+GO:0016874	ligase activity	135	6.27	Ecun
+GO:0016874	ligase activity	289	3.38	Ncra
+GO:0016874	ligase activity	136	3.66	Rozella
+GO:0016874	ligase activity	230	3.22	Spom
+GO:0016874	ligase activity	185	3.24	Scer
+GO:0016887	ATPase activity	252	2.16	Anid
+GO:0016887	ATPase activity	215	2.48	Calb
+GO:0016887	ATPase activity	157	2.28	Cneo
+GO:0016887	ATPase activity	64	2.97	Ecun
+GO:0016887	ATPase activity	220	2.57	Ncra
+GO:0016887	ATPase activity	164	4.42	Rozella
+GO:0016887	ATPase activity	269	3.77	Spom
+GO:0016887	ATPase activity	236	4.13	Scer
+GO:0019843	rRNA binding	9	0.08	Anid
+GO:0019843	rRNA binding	11	0.13	Calb
+GO:0019843	rRNA binding	8	0.12	Cneo
+GO:0019843	rRNA binding	11	0.51	Ecun
+GO:0019843	rRNA binding	13	0.15	Ncra
+GO:0019843	rRNA binding	5	0.13	Rozella
+GO:0019843	rRNA binding	46	0.64	Spom
+GO:0019843	rRNA binding	93	1.63	Scer
+GO:0019899	enzyme binding	21	0.18	Anid
+GO:0019899	enzyme binding	27	0.31	Calb
+GO:0019899	enzyme binding	17	0.25	Cneo
+GO:0019899	enzyme binding	5	0.23	Ecun
+GO:0019899	enzyme binding	24	0.28	Ncra
+GO:0019899	enzyme binding	21	0.57	Rozella
+GO:0019899	enzyme binding	44	0.62	Spom
+GO:0019899	enzyme binding	55	0.96	Scer
+GO:0022857	transmembrane transporter activity	551	4.71	Anid
+GO:0022857	transmembrane transporter activity	470	5.43	Calb
+GO:0022857	transmembrane transporter activity	315	4.57	Cneo
+GO:0022857	transmembrane transporter activity	47	2.18	Ecun
+GO:0022857	transmembrane transporter activity	358	4.18	Ncra
+GO:0022857	transmembrane transporter activity	148	3.99	Rozella
+GO:0022857	transmembrane transporter activity	405	5.67	Spom
+GO:0022857	transmembrane transporter activity	314	5.49	Scer
+GO:0030234	enzyme regulator activity	94	0.80	Anid
+GO:0030234	enzyme regulator activity	136	1.57	Calb
+GO:0030234	enzyme regulator activity	82	1.19	Cneo
+GO:0030234	enzyme regulator activity	23	1.07	Ecun
+GO:0030234	enzyme regulator activity	89	1.04	Ncra
+GO:0030234	enzyme regulator activity	94	2.53	Rozella
+GO:0030234	enzyme regulator activity	202	2.83	Spom
+GO:0030234	enzyme regulator activity	223	3.90	Scer
+GO:0030555	RNA modification guide activity	0	0.00	Anid
+GO:0030555	RNA modification guide activity	0	0.00	Calb
+GO:0030555	RNA modification guide activity	0	0.00	Cneo
+GO:0030555	RNA modification guide activity	0	0.00	Ecun
+GO:0030555	RNA modification guide activity	0	0.00	Ncra
+GO:0030555	RNA modification guide activity	0	0.00	Rozella
+GO:0030555	RNA modification guide activity	9	0.13	Spom
+GO:0030555	RNA modification guide activity	71	1.24	Scer
+GO:0030674	protein binding, bridging	1	0.01	Anid
+GO:0030674	protein binding, bridging	8	0.09	Calb
+GO:0030674	protein binding, bridging	2	0.03	Cneo
+GO:0030674	protein binding, bridging	0	0.00	Ecun
+GO:0030674	protein binding, bridging	2	0.02	Ncra
+GO:0030674	protein binding, bridging	3	0.08	Rozella
+GO:0030674	protein binding, bridging	31	0.43	Spom
+GO:0030674	protein binding, bridging	45	0.79	Scer
+GO:0032182	small conjugating protein binding	5	0.04	Anid
+GO:0032182	small conjugating protein binding	3	0.03	Calb
+GO:0032182	small conjugating protein binding	2	0.03	Cneo
+GO:0032182	small conjugating protein binding	0	0.00	Ecun
+GO:0032182	small conjugating protein binding	4	0.05	Ncra
+GO:0032182	small conjugating protein binding	2	0.05	Rozella
+GO:0032182	small conjugating protein binding	26	0.36	Spom
+GO:0032182	small conjugating protein binding	43	0.75	Scer
+GO:0042393	histone binding	2	0.02	Anid
+GO:0042393	histone binding	1	0.01	Calb
+GO:0042393	histone binding	2	0.03	Cneo
+GO:0042393	histone binding	0	0.00	Ecun
+GO:0042393	histone binding	5	0.06	Ncra
+GO:0042393	histone binding	0	0.00	Rozella
+GO:0042393	histone binding	26	0.36	Spom
+GO:0042393	histone binding	41	0.72	Scer
+GO:0043167	ion binding	3192	27.31	Anid
+GO:0043167	ion binding	2239	25.85	Calb
+GO:0043167	ion binding	1928	27.95	Cneo
+GO:0043167	ion binding	635	29.48	Ecun
+GO:0043167	ion binding	2437	28.47	Ncra
+GO:0043167	ion binding	1053	28.37	Rozella
+GO:0043167	ion binding	1601	22.43	Spom
+GO:0043167	ion binding	126	2.20	Scer
+GO:0051082	unfolded protein binding	49	0.42	Anid
+GO:0051082	unfolded protein binding	53	0.61	Calb
+GO:0051082	unfolded protein binding	40	0.58	Cneo
+GO:0051082	unfolded protein binding	14	0.65	Ecun
+GO:0051082	unfolded protein binding	41	0.48	Ncra
+GO:0051082	unfolded protein binding	44	1.19	Rozella
+GO:0051082	unfolded protein binding	56	0.78	Spom
+GO:0051082	unfolded protein binding	67	1.17	Scer

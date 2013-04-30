@@ -1,0 +1,793 @@
+GO_ID	GO_Term	Count	Percentage	Samples
+GO:0000054	ribosomal subunit export from nucleus	7	0.11	Anid
+GO:0000054	ribosomal subunit export from nucleus	0	0.00	Calb
+GO:0000054	ribosomal subunit export from nucleus	1	0.03	Cneo
+GO:0000054	ribosomal subunit export from nucleus	0	0.00	Ecun
+GO:0000054	ribosomal subunit export from nucleus	6	0.11	Ncra
+GO:0000054	ribosomal subunit export from nucleus	0	0.00	Rozella
+GO:0000054	ribosomal subunit export from nucleus	27	0.18	Spom
+GO:0000054	ribosomal subunit export from nucleus	43	0.34	Scer
+GO:0000278	mitotic cell cycle	59	0.89	Anid
+GO:0000278	mitotic cell cycle	81	1.08	Calb
+GO:0000278	mitotic cell cycle	19	0.55	Cneo
+GO:0000278	mitotic cell cycle	15	1.62	Ecun
+GO:0000278	mitotic cell cycle	46	0.85	Ncra
+GO:0000278	mitotic cell cycle	6	0.32	Rozella
+GO:0000278	mitotic cell cycle	706	4.76	Spom
+GO:0000278	mitotic cell cycle	300	2.38	Scer
+GO:0000746	conjugation	7	0.11	Anid
+GO:0000746	conjugation	44	0.59	Calb
+GO:0000746	conjugation	2	0.06	Cneo
+GO:0000746	conjugation	0	0.00	Ecun
+GO:0000746	conjugation	9	0.17	Ncra
+GO:0000746	conjugation	0	0.00	Rozella
+GO:0000746	conjugation	204	1.37	Spom
+GO:0000746	conjugation	108	0.86	Scer
+GO:0000902	cell morphogenesis	2	0.03	Anid
+GO:0000902	cell morphogenesis	21	0.28	Calb
+GO:0000902	cell morphogenesis	2	0.06	Cneo
+GO:0000902	cell morphogenesis	0	0.00	Ecun
+GO:0000902	cell morphogenesis	3	0.06	Ncra
+GO:0000902	cell morphogenesis	2	0.11	Rozella
+GO:0000902	cell morphogenesis	160	1.08	Spom
+GO:0000902	cell morphogenesis	29	0.23	Scer
+GO:0000910	cytokinesis	8	0.12	Anid
+GO:0000910	cytokinesis	37	0.50	Calb
+GO:0000910	cytokinesis	1	0.03	Cneo
+GO:0000910	cytokinesis	1	0.11	Ecun
+GO:0000910	cytokinesis	9	0.17	Ncra
+GO:0000910	cytokinesis	0	0.00	Rozella
+GO:0000910	cytokinesis	222	1.50	Spom
+GO:0000910	cytokinesis	113	0.90	Scer
+GO:0001403	invasive growth in response to glucose limitation	0	0.00	Anid
+GO:0001403	invasive growth in response to glucose limitation	4	0.05	Calb
+GO:0001403	invasive growth in response to glucose limitation	0	0.00	Cneo
+GO:0001403	invasive growth in response to glucose limitation	0	0.00	Ecun
+GO:0001403	invasive growth in response to glucose limitation	1	0.02	Ncra
+GO:0001403	invasive growth in response to glucose limitation	0	0.00	Rozella
+GO:0001403	invasive growth in response to glucose limitation	1	0.01	Spom
+GO:0001403	invasive growth in response to glucose limitation	54	0.43	Scer
+GO:0002181	cytoplasmic translation	0	0.00	Anid
+GO:0002181	cytoplasmic translation	0	0.00	Calb
+GO:0002181	cytoplasmic translation	0	0.00	Cneo
+GO:0002181	cytoplasmic translation	0	0.00	Ecun
+GO:0002181	cytoplasmic translation	0	0.00	Ncra
+GO:0002181	cytoplasmic translation	0	0.00	Rozella
+GO:0002181	cytoplasmic translation	465	3.13	Spom
+GO:0002181	cytoplasmic translation	171	1.36	Scer
+GO:0005975	carbohydrate metabolic process	741	11.17	Anid
+GO:0005975	carbohydrate metabolic process	314	4.21	Calb
+GO:0005975	carbohydrate metabolic process	211	6.13	Cneo
+GO:0005975	carbohydrate metabolic process	48	5.17	Ecun
+GO:0005975	carbohydrate metabolic process	391	7.25	Ncra
+GO:0005975	carbohydrate metabolic process	93	4.90	Rozella
+GO:0005975	carbohydrate metabolic process	290	1.95	Spom
+GO:0005975	carbohydrate metabolic process	268	2.13	Scer
+GO:0006091	generation of precursor metabolites and energy	59	0.89	Anid
+GO:0006091	generation of precursor metabolites and energy	101	1.35	Calb
+GO:0006091	generation of precursor metabolites and energy	46	1.34	Cneo
+GO:0006091	generation of precursor metabolites and energy	20	2.16	Ecun
+GO:0006091	generation of precursor metabolites and energy	127	2.35	Ncra
+GO:0006091	generation of precursor metabolites and energy	16	0.84	Rozella
+GO:0006091	generation of precursor metabolites and energy	115	0.77	Spom
+GO:0006091	generation of precursor metabolites and energy	162	1.29	Scer
+GO:0006260	DNA replication	120	1.81	Anid
+GO:0006260	DNA replication	118	1.58	Calb
+GO:0006260	DNA replication	81	2.35	Cneo
+GO:0006260	DNA replication	55	5.93	Ecun
+GO:0006260	DNA replication	108	2.00	Ncra
+GO:0006260	DNA replication	61	3.22	Rozella
+GO:0006260	DNA replication	206	1.39	Spom
+GO:0006260	DNA replication	140	1.11	Scer
+GO:0006281	DNA repair	139	2.10	Anid
+GO:0006281	DNA repair	137	1.83	Calb
+GO:0006281	DNA repair	107	3.11	Cneo
+GO:0006281	DNA repair	51	5.50	Ecun
+GO:0006281	DNA repair	166	3.08	Ncra
+GO:0006281	DNA repair	63	3.32	Rozella
+GO:0006281	DNA repair	321	2.16	Spom
+GO:0006281	DNA repair	238	1.89	Scer
+GO:0006310	DNA recombination	53	0.80	Anid
+GO:0006310	DNA recombination	23	0.31	Calb
+GO:0006310	DNA recombination	23	0.67	Cneo
+GO:0006310	DNA recombination	7	0.75	Ecun
+GO:0006310	DNA recombination	61	1.13	Ncra
+GO:0006310	DNA recombination	11	0.58	Rozella
+GO:0006310	DNA recombination	184	1.24	Spom
+GO:0006310	DNA recombination	160	1.27	Scer
+GO:0006325	chromatin organization	56	0.84	Anid
+GO:0006325	chromatin organization	57	0.76	Calb
+GO:0006325	chromatin organization	42	1.22	Cneo
+GO:0006325	chromatin organization	14	1.51	Ecun
+GO:0006325	chromatin organization	57	1.06	Ncra
+GO:0006325	chromatin organization	26	1.37	Rozella
+GO:0006325	chromatin organization	253	1.70	Spom
+GO:0006325	chromatin organization	229	1.82	Scer
+GO:0006352	DNA-dependent transcription, initiation	19	0.29	Anid
+GO:0006352	DNA-dependent transcription, initiation	25	0.33	Calb
+GO:0006352	DNA-dependent transcription, initiation	18	0.52	Cneo
+GO:0006352	DNA-dependent transcription, initiation	17	1.83	Ecun
+GO:0006352	DNA-dependent transcription, initiation	21	0.39	Ncra
+GO:0006352	DNA-dependent transcription, initiation	23	1.21	Rozella
+GO:0006352	DNA-dependent transcription, initiation	60	0.40	Spom
+GO:0006352	DNA-dependent transcription, initiation	66	0.52	Scer
+GO:0006353	DNA-dependent transcription, termination	5	0.08	Anid
+GO:0006353	DNA-dependent transcription, termination	3	0.04	Calb
+GO:0006353	DNA-dependent transcription, termination	4	0.12	Cneo
+GO:0006353	DNA-dependent transcription, termination	0	0.00	Ecun
+GO:0006353	DNA-dependent transcription, termination	8	0.15	Ncra
+GO:0006353	DNA-dependent transcription, termination	1	0.05	Rozella
+GO:0006353	DNA-dependent transcription, termination	15	0.10	Spom
+GO:0006353	DNA-dependent transcription, termination	34	0.27	Scer
+GO:0006354	DNA-dependent transcription, elongation	8	0.12	Anid
+GO:0006354	DNA-dependent transcription, elongation	8	0.11	Calb
+GO:0006354	DNA-dependent transcription, elongation	6	0.17	Cneo
+GO:0006354	DNA-dependent transcription, elongation	4	0.43	Ecun
+GO:0006354	DNA-dependent transcription, elongation	8	0.15	Ncra
+GO:0006354	DNA-dependent transcription, elongation	4	0.21	Rozella
+GO:0006354	DNA-dependent transcription, elongation	45	0.30	Spom
+GO:0006354	DNA-dependent transcription, elongation	76	0.60	Scer
+GO:0006360	transcription from RNA polymerase I promoter	1	0.02	Anid
+GO:0006360	transcription from RNA polymerase I promoter	0	0.00	Calb
+GO:0006360	transcription from RNA polymerase I promoter	0	0.00	Cneo
+GO:0006360	transcription from RNA polymerase I promoter	0	0.00	Ecun
+GO:0006360	transcription from RNA polymerase I promoter	0	0.00	Ncra
+GO:0006360	transcription from RNA polymerase I promoter	0	0.00	Rozella
+GO:0006360	transcription from RNA polymerase I promoter	33	0.22	Spom
+GO:0006360	transcription from RNA polymerase I promoter	64	0.51	Scer
+GO:0006364	rRNA processing	98	1.48	Anid
+GO:0006364	rRNA processing	78	1.04	Calb
+GO:0006364	rRNA processing	56	1.63	Cneo
+GO:0006364	rRNA processing	22	2.37	Ecun
+GO:0006364	rRNA processing	88	1.63	Ncra
+GO:0006364	rRNA processing	15	0.79	Rozella
+GO:0006364	rRNA processing	198	1.33	Spom
+GO:0006364	rRNA processing	295	2.34	Scer
+GO:0006366	transcription from RNA polymerase II promoter	697	10.51	Anid
+GO:0006366	transcription from RNA polymerase II promoter	338	4.53	Calb
+GO:0006366	transcription from RNA polymerase II promoter	182	5.29	Cneo
+GO:0006366	transcription from RNA polymerase II promoter	14	1.51	Ecun
+GO:0006366	transcription from RNA polymerase II promoter	250	4.63	Ncra
+GO:0006366	transcription from RNA polymerase II promoter	24	1.27	Rozella
+GO:0006366	transcription from RNA polymerase II promoter	630	4.24	Spom
+GO:0006366	transcription from RNA polymerase II promoter	458	3.64	Scer
+GO:0006383	transcription from RNA polymerase III promoter	5	0.08	Anid
+GO:0006383	transcription from RNA polymerase III promoter	4	0.05	Calb
+GO:0006383	transcription from RNA polymerase III promoter	1	0.03	Cneo
+GO:0006383	transcription from RNA polymerase III promoter	0	0.00	Ecun
+GO:0006383	transcription from RNA polymerase III promoter	4	0.07	Ncra
+GO:0006383	transcription from RNA polymerase III promoter	0	0.00	Rozella
+GO:0006383	transcription from RNA polymerase III promoter	32	0.22	Spom
+GO:0006383	transcription from RNA polymerase III promoter	39	0.31	Scer
+GO:0006397	mRNA processing	67	1.01	Anid
+GO:0006397	mRNA processing	91	1.22	Calb
+GO:0006397	mRNA processing	62	1.80	Cneo
+GO:0006397	mRNA processing	14	1.51	Ecun
+GO:0006397	mRNA processing	73	1.35	Ncra
+GO:0006397	mRNA processing	20	1.05	Rozella
+GO:0006397	mRNA processing	224	1.51	Spom
+GO:0006397	mRNA processing	192	1.53	Scer
+GO:0006401	RNA catabolic process	19	0.29	Anid
+GO:0006401	RNA catabolic process	9	0.12	Calb
+GO:0006401	RNA catabolic process	4	0.12	Cneo
+GO:0006401	RNA catabolic process	3	0.32	Ecun
+GO:0006401	RNA catabolic process	14	0.26	Ncra
+GO:0006401	RNA catabolic process	1	0.05	Rozella
+GO:0006401	RNA catabolic process	178	1.20	Spom
+GO:0006401	RNA catabolic process	108	0.86	Scer
+GO:0006413	translational initiation	71	1.07	Anid
+GO:0006413	translational initiation	33	0.44	Calb
+GO:0006413	translational initiation	53	1.54	Cneo
+GO:0006413	translational initiation	34	3.66	Ecun
+GO:0006413	translational initiation	45	0.83	Ncra
+GO:0006413	translational initiation	14	0.74	Rozella
+GO:0006413	translational initiation	77	0.52	Spom
+GO:0006413	translational initiation	57	0.45	Scer
+GO:0006414	translational elongation	40	0.60	Anid
+GO:0006414	translational elongation	43	0.58	Calb
+GO:0006414	translational elongation	31	0.90	Cneo
+GO:0006414	translational elongation	11	1.19	Ecun
+GO:0006414	translational elongation	33	0.61	Ncra
+GO:0006414	translational elongation	9	0.47	Rozella
+GO:0006414	translational elongation	53	0.36	Spom
+GO:0006414	translational elongation	332	2.64	Scer
+GO:0006417	regulation of translation	27	0.41	Anid
+GO:0006417	regulation of translation	21	0.28	Calb
+GO:0006417	regulation of translation	13	0.38	Cneo
+GO:0006417	regulation of translation	5	0.54	Ecun
+GO:0006417	regulation of translation	26	0.48	Ncra
+GO:0006417	regulation of translation	2	0.11	Rozella
+GO:0006417	regulation of translation	65	0.44	Spom
+GO:0006417	regulation of translation	90	0.72	Scer
+GO:0006418	tRNA aminoacylation for protein translation	73	1.10	Anid
+GO:0006418	tRNA aminoacylation for protein translation	80	1.07	Calb
+GO:0006418	tRNA aminoacylation for protein translation	55	1.60	Cneo
+GO:0006418	tRNA aminoacylation for protein translation	39	4.20	Ecun
+GO:0006418	tRNA aminoacylation for protein translation	70	1.30	Ncra
+GO:0006418	tRNA aminoacylation for protein translation	56	2.95	Rozella
+GO:0006418	tRNA aminoacylation for protein translation	44	0.30	Spom
+GO:0006418	tRNA aminoacylation for protein translation	36	0.29	Scer
+GO:0006457	protein folding	84	1.27	Anid
+GO:0006457	protein folding	71	0.95	Calb
+GO:0006457	protein folding	78	2.27	Cneo
+GO:0006457	protein folding	22	2.37	Ecun
+GO:0006457	protein folding	77	1.43	Ncra
+GO:0006457	protein folding	64	3.37	Rozella
+GO:0006457	protein folding	151	1.02	Spom
+GO:0006457	protein folding	89	0.71	Scer
+GO:0006468	protein phosphorylation	137	2.07	Anid
+GO:0006468	protein phosphorylation	197	2.64	Calb
+GO:0006468	protein phosphorylation	116	3.37	Cneo
+GO:0006468	protein phosphorylation	32	3.45	Ecun
+GO:0006468	protein phosphorylation	143	2.65	Ncra
+GO:0006468	protein phosphorylation	154	8.12	Rozella
+GO:0006468	protein phosphorylation	192	1.29	Spom
+GO:0006468	protein phosphorylation	176	1.40	Scer
+GO:0006470	protein dephosphorylation	37	0.56	Anid
+GO:0006470	protein dephosphorylation	54	0.72	Calb
+GO:0006470	protein dephosphorylation	26	0.76	Cneo
+GO:0006470	protein dephosphorylation	7	0.75	Ecun
+GO:0006470	protein dephosphorylation	40	0.74	Ncra
+GO:0006470	protein dephosphorylation	15	0.79	Rozella
+GO:0006470	protein dephosphorylation	41	0.28	Spom
+GO:0006470	protein dephosphorylation	40	0.32	Scer
+GO:0006486	protein glycosylation	19	0.29	Anid
+GO:0006486	protein glycosylation	75	1.00	Calb
+GO:0006486	protein glycosylation	16	0.46	Cneo
+GO:0006486	protein glycosylation	3	0.32	Ecun
+GO:0006486	protein glycosylation	28	0.52	Ncra
+GO:0006486	protein glycosylation	14	0.74	Rozella
+GO:0006486	protein glycosylation	73	0.49	Spom
+GO:0006486	protein glycosylation	64	0.51	Scer
+GO:0006497	protein lipidation	27	0.41	Anid
+GO:0006497	protein lipidation	46	0.62	Calb
+GO:0006497	protein lipidation	17	0.49	Cneo
+GO:0006497	protein lipidation	7	0.75	Ecun
+GO:0006497	protein lipidation	27	0.50	Ncra
+GO:0006497	protein lipidation	13	0.69	Rozella
+GO:0006497	protein lipidation	41	0.28	Spom
+GO:0006497	protein lipidation	44	0.35	Scer
+GO:0006520	cellular amino acid metabolic process	343	5.17	Anid
+GO:0006520	cellular amino acid metabolic process	346	4.63	Calb
+GO:0006520	cellular amino acid metabolic process	216	6.27	Cneo
+GO:0006520	cellular amino acid metabolic process	11	1.19	Ecun
+GO:0006520	cellular amino acid metabolic process	308	5.71	Ncra
+GO:0006520	cellular amino acid metabolic process	53	2.79	Rozella
+GO:0006520	cellular amino acid metabolic process	289	1.95	Spom
+GO:0006520	cellular amino acid metabolic process	246	1.95	Scer
+GO:0006605	protein targeting	40	0.60	Anid
+GO:0006605	protein targeting	64	0.86	Calb
+GO:0006605	protein targeting	25	0.73	Cneo
+GO:0006605	protein targeting	5	0.54	Ecun
+GO:0006605	protein targeting	48	0.89	Ncra
+GO:0006605	protein targeting	25	1.32	Rozella
+GO:0006605	protein targeting	202	1.36	Spom
+GO:0006605	protein targeting	266	2.11	Scer
+GO:0006629	lipid metabolic process	302	4.55	Anid
+GO:0006629	lipid metabolic process	378	5.06	Calb
+GO:0006629	lipid metabolic process	165	4.79	Cneo
+GO:0006629	lipid metabolic process	42	4.53	Ecun
+GO:0006629	lipid metabolic process	307	5.69	Ncra
+GO:0006629	lipid metabolic process	85	4.48	Rozella
+GO:0006629	lipid metabolic process	336	2.26	Spom
+GO:0006629	lipid metabolic process	295	2.34	Scer
+GO:0006766	vitamin metabolic process	34	0.51	Anid
+GO:0006766	vitamin metabolic process	36	0.48	Calb
+GO:0006766	vitamin metabolic process	24	0.70	Cneo
+GO:0006766	vitamin metabolic process	0	0.00	Ecun
+GO:0006766	vitamin metabolic process	32	0.59	Ncra
+GO:0006766	vitamin metabolic process	6	0.32	Rozella
+GO:0006766	vitamin metabolic process	50	0.34	Spom
+GO:0006766	vitamin metabolic process	43	0.34	Scer
+GO:0006811	ion transport	283	4.27	Anid
+GO:0006811	ion transport	324	4.34	Calb
+GO:0006811	ion transport	165	4.79	Cneo
+GO:0006811	ion transport	35	3.77	Ecun
+GO:0006811	ion transport	258	4.78	Ncra
+GO:0006811	ion transport	95	5.01	Rozella
+GO:0006811	ion transport	289	1.95	Spom
+GO:0006811	ion transport	208	1.65	Scer
+GO:0006865	amino acid transport	76	1.15	Anid
+GO:0006865	amino acid transport	83	1.11	Calb
+GO:0006865	amino acid transport	20	0.58	Cneo
+GO:0006865	amino acid transport	1	0.11	Ecun
+GO:0006865	amino acid transport	32	0.59	Ncra
+GO:0006865	amino acid transport	2	0.11	Rozella
+GO:0006865	amino acid transport	76	0.51	Spom
+GO:0006865	amino acid transport	48	0.38	Scer
+GO:0006869	lipid transport	13	0.20	Anid
+GO:0006869	lipid transport	22	0.29	Calb
+GO:0006869	lipid transport	8	0.23	Cneo
+GO:0006869	lipid transport	2	0.22	Ecun
+GO:0006869	lipid transport	15	0.28	Ncra
+GO:0006869	lipid transport	6	0.32	Rozella
+GO:0006869	lipid transport	19	0.13	Spom
+GO:0006869	lipid transport	56	0.44	Scer
+GO:0006873	cellular ion homeostasis	11	0.17	Anid
+GO:0006873	cellular ion homeostasis	44	0.59	Calb
+GO:0006873	cellular ion homeostasis	1	0.03	Cneo
+GO:0006873	cellular ion homeostasis	1	0.11	Ecun
+GO:0006873	cellular ion homeostasis	14	0.26	Ncra
+GO:0006873	cellular ion homeostasis	0	0.00	Rozella
+GO:0006873	cellular ion homeostasis	132	0.89	Spom
+GO:0006873	cellular ion homeostasis	123	0.98	Scer
+GO:0006887	exocytosis	14	0.21	Anid
+GO:0006887	exocytosis	21	0.28	Calb
+GO:0006887	exocytosis	11	0.32	Cneo
+GO:0006887	exocytosis	6	0.65	Ecun
+GO:0006887	exocytosis	14	0.26	Ncra
+GO:0006887	exocytosis	12	0.63	Rozella
+GO:0006887	exocytosis	33	0.22	Spom
+GO:0006887	exocytosis	47	0.37	Scer
+GO:0006897	endocytosis	14	0.21	Anid
+GO:0006897	endocytosis	18	0.24	Calb
+GO:0006897	endocytosis	1	0.03	Cneo
+GO:0006897	endocytosis	0	0.00	Ecun
+GO:0006897	endocytosis	17	0.32	Ncra
+GO:0006897	endocytosis	3	0.16	Rozella
+GO:0006897	endocytosis	80	0.54	Spom
+GO:0006897	endocytosis	98	0.78	Scer
+GO:0006970	response to osmotic stress	2	0.03	Anid
+GO:0006970	response to osmotic stress	27	0.36	Calb
+GO:0006970	response to osmotic stress	0	0.00	Cneo
+GO:0006970	response to osmotic stress	0	0.00	Ecun
+GO:0006970	response to osmotic stress	3	0.06	Ncra
+GO:0006970	response to osmotic stress	0	0.00	Rozella
+GO:0006970	response to osmotic stress	58	0.39	Spom
+GO:0006970	response to osmotic stress	81	0.64	Scer
+GO:0006974	response to DNA damage stimulus	38	0.57	Anid
+GO:0006974	response to DNA damage stimulus	59	0.79	Calb
+GO:0006974	response to DNA damage stimulus	32	0.93	Cneo
+GO:0006974	response to DNA damage stimulus	15	1.62	Ecun
+GO:0006974	response to DNA damage stimulus	49	0.91	Ncra
+GO:0006974	response to DNA damage stimulus	1	0.05	Rozella
+GO:0006974	response to DNA damage stimulus	134	0.90	Spom
+GO:0006974	response to DNA damage stimulus	289	2.30	Scer
+GO:0006979	response to oxidative stress	33	0.50	Anid
+GO:0006979	response to oxidative stress	74	0.99	Calb
+GO:0006979	response to oxidative stress	14	0.41	Cneo
+GO:0006979	response to oxidative stress	1	0.11	Ecun
+GO:0006979	response to oxidative stress	34	0.63	Ncra
+GO:0006979	response to oxidative stress	6	0.32	Rozella
+GO:0006979	response to oxidative stress	113	0.76	Spom
+GO:0006979	response to oxidative stress	86	0.68	Scer
+GO:0006997	nucleus organization	3	0.05	Anid
+GO:0006997	nucleus organization	6	0.08	Calb
+GO:0006997	nucleus organization	1	0.03	Cneo
+GO:0006997	nucleus organization	1	0.11	Ecun
+GO:0006997	nucleus organization	3	0.06	Ncra
+GO:0006997	nucleus organization	1	0.05	Rozella
+GO:0006997	nucleus organization	33	0.22	Spom
+GO:0006997	nucleus organization	53	0.42	Scer
+GO:0007005	mitochondrion organization	28	0.42	Anid
+GO:0007005	mitochondrion organization	18	0.24	Calb
+GO:0007005	mitochondrion organization	12	0.35	Cneo
+GO:0007005	mitochondrion organization	0	0.00	Ecun
+GO:0007005	mitochondrion organization	26	0.48	Ncra
+GO:0007005	mitochondrion organization	13	0.69	Rozella
+GO:0007005	mitochondrion organization	186	1.25	Spom
+GO:0007005	mitochondrion organization	339	2.69	Scer
+GO:0007010	cytoskeleton organization	38	0.57	Anid
+GO:0007010	cytoskeleton organization	52	0.70	Calb
+GO:0007010	cytoskeleton organization	23	0.67	Cneo
+GO:0007010	cytoskeleton organization	3	0.32	Ecun
+GO:0007010	cytoskeleton organization	45	0.83	Ncra
+GO:0007010	cytoskeleton organization	20	1.05	Rozella
+GO:0007010	cytoskeleton organization	385	2.59	Spom
+GO:0007010	cytoskeleton organization	220	1.75	Scer
+GO:0007031	peroxisome organization	20	0.30	Anid
+GO:0007031	peroxisome organization	33	0.44	Calb
+GO:0007031	peroxisome organization	11	0.32	Cneo
+GO:0007031	peroxisome organization	0	0.00	Ecun
+GO:0007031	peroxisome organization	24	0.44	Ncra
+GO:0007031	peroxisome organization	8	0.42	Rozella
+GO:0007031	peroxisome organization	30	0.20	Spom
+GO:0007031	peroxisome organization	68	0.54	Scer
+GO:0007033	vacuole organization	10	0.15	Anid
+GO:0007033	vacuole organization	23	0.31	Calb
+GO:0007033	vacuole organization	1	0.03	Cneo
+GO:0007033	vacuole organization	0	0.00	Ecun
+GO:0007033	vacuole organization	12	0.22	Ncra
+GO:0007033	vacuole organization	0	0.00	Rozella
+GO:0007033	vacuole organization	38	0.26	Spom
+GO:0007033	vacuole organization	69	0.55	Scer
+GO:0007059	chromosome segregation	22	0.33	Anid
+GO:0007059	chromosome segregation	17	0.23	Calb
+GO:0007059	chromosome segregation	7	0.20	Cneo
+GO:0007059	chromosome segregation	4	0.43	Ecun
+GO:0007059	chromosome segregation	21	0.39	Ncra
+GO:0007059	chromosome segregation	3	0.16	Rozella
+GO:0007059	chromosome segregation	299	2.01	Spom
+GO:0007059	chromosome segregation	132	1.05	Scer
+GO:0007114	cell budding	2	0.03	Anid
+GO:0007114	cell budding	8	0.11	Calb
+GO:0007114	cell budding	0	0.00	Cneo
+GO:0007114	cell budding	0	0.00	Ecun
+GO:0007114	cell budding	3	0.06	Ncra
+GO:0007114	cell budding	0	0.00	Rozella
+GO:0007114	cell budding	0	0.00	Spom
+GO:0007114	cell budding	65	0.52	Scer
+GO:0007124	pseudohyphal growth	0	0.00	Anid
+GO:0007124	pseudohyphal growth	34	0.46	Calb
+GO:0007124	pseudohyphal growth	0	0.00	Cneo
+GO:0007124	pseudohyphal growth	0	0.00	Ecun
+GO:0007124	pseudohyphal growth	5	0.09	Ncra
+GO:0007124	pseudohyphal growth	0	0.00	Rozella
+GO:0007124	pseudohyphal growth	0	0.00	Spom
+GO:0007124	pseudohyphal growth	68	0.54	Scer
+GO:0008033	tRNA processing	54	0.81	Anid
+GO:0008033	tRNA processing	68	0.91	Calb
+GO:0008033	tRNA processing	42	1.22	Cneo
+GO:0008033	tRNA processing	25	2.69	Ecun
+GO:0008033	tRNA processing	61	1.13	Ncra
+GO:0008033	tRNA processing	27	1.42	Rozella
+GO:0008033	tRNA processing	107	0.72	Spom
+GO:0008033	tRNA processing	103	0.82	Scer
+GO:0008213	protein alkylation	13	0.20	Anid
+GO:0008213	protein alkylation	15	0.20	Calb
+GO:0008213	protein alkylation	15	0.44	Cneo
+GO:0008213	protein alkylation	2	0.22	Ecun
+GO:0008213	protein alkylation	13	0.24	Ncra
+GO:0008213	protein alkylation	6	0.32	Rozella
+GO:0008213	protein alkylation	74	0.50	Spom
+GO:0008213	protein alkylation	44	0.35	Scer
+GO:0008380	RNA splicing	43	0.65	Anid
+GO:0008380	RNA splicing	51	0.68	Calb
+GO:0008380	RNA splicing	36	1.05	Cneo
+GO:0008380	RNA splicing	6	0.65	Ecun
+GO:0008380	RNA splicing	44	0.82	Ncra
+GO:0008380	RNA splicing	9	0.47	Rozella
+GO:0008380	RNA splicing	162	1.09	Spom
+GO:0008380	RNA splicing	139	1.10	Scer
+GO:0008643	carbohydrate transport	36	0.54	Anid
+GO:0008643	carbohydrate transport	37	0.50	Calb
+GO:0008643	carbohydrate transport	18	0.52	Cneo
+GO:0008643	carbohydrate transport	2	0.22	Ecun
+GO:0008643	carbohydrate transport	7	0.13	Ncra
+GO:0008643	carbohydrate transport	1	0.05	Rozella
+GO:0008643	carbohydrate transport	30	0.20	Spom
+GO:0008643	carbohydrate transport	33	0.26	Scer
+GO:0009311	oligosaccharide metabolic process	47	0.71	Anid
+GO:0009311	oligosaccharide metabolic process	26	0.35	Calb
+GO:0009311	oligosaccharide metabolic process	8	0.23	Cneo
+GO:0009311	oligosaccharide metabolic process	3	0.32	Ecun
+GO:0009311	oligosaccharide metabolic process	20	0.37	Ncra
+GO:0009311	oligosaccharide metabolic process	7	0.37	Rozella
+GO:0009311	oligosaccharide metabolic process	38	0.26	Spom
+GO:0009311	oligosaccharide metabolic process	37	0.29	Scer
+GO:0009408	response to heat	4	0.06	Anid
+GO:0009408	response to heat	77	1.03	Calb
+GO:0009408	response to heat	3	0.09	Cneo
+GO:0009408	response to heat	0	0.00	Ecun
+GO:0009408	response to heat	8	0.15	Ncra
+GO:0009408	response to heat	1	0.05	Rozella
+GO:0009408	response to heat	39	0.26	Spom
+GO:0009408	response to heat	49	0.39	Scer
+GO:0009451	RNA modification	52	0.78	Anid
+GO:0009451	RNA modification	61	0.82	Calb
+GO:0009451	RNA modification	32	0.93	Cneo
+GO:0009451	RNA modification	23	2.48	Ecun
+GO:0009451	RNA modification	47	0.87	Ncra
+GO:0009451	RNA modification	40	2.11	Rozella
+GO:0009451	RNA modification	105	0.71	Spom
+GO:0009451	RNA modification	158	1.26	Scer
+GO:0010324	membrane invagination	4	0.06	Anid
+GO:0010324	membrane invagination	0	0.00	Calb
+GO:0010324	membrane invagination	0	0.00	Cneo
+GO:0010324	membrane invagination	0	0.00	Ecun
+GO:0010324	membrane invagination	5	0.09	Ncra
+GO:0010324	membrane invagination	0	0.00	Rozella
+GO:0010324	membrane invagination	2	0.01	Spom
+GO:0010324	membrane invagination	43	0.34	Scer
+GO:0015931	nucleobase-containing compound transport	19	0.29	Anid
+GO:0015931	nucleobase-containing compound transport	29	0.39	Calb
+GO:0015931	nucleobase-containing compound transport	13	0.38	Cneo
+GO:0015931	nucleobase-containing compound transport	2	0.22	Ecun
+GO:0015931	nucleobase-containing compound transport	21	0.39	Ncra
+GO:0015931	nucleobase-containing compound transport	4	0.21	Rozella
+GO:0015931	nucleobase-containing compound transport	90	0.61	Spom
+GO:0015931	nucleobase-containing compound transport	119	0.95	Scer
+GO:0016050	vesicle organization	5	0.08	Anid
+GO:0016050	vesicle organization	5	0.07	Calb
+GO:0016050	vesicle organization	3	0.09	Cneo
+GO:0016050	vesicle organization	0	0.00	Ecun
+GO:0016050	vesicle organization	7	0.13	Ncra
+GO:0016050	vesicle organization	2	0.11	Rozella
+GO:0016050	vesicle organization	34	0.23	Spom
+GO:0016050	vesicle organization	77	0.61	Scer
+GO:0016197	endosomal transport	4	0.06	Anid
+GO:0016197	endosomal transport	6	0.08	Calb
+GO:0016197	endosomal transport	1	0.03	Cneo
+GO:0016197	endosomal transport	0	0.00	Ecun
+GO:0016197	endosomal transport	4	0.07	Ncra
+GO:0016197	endosomal transport	0	0.00	Rozella
+GO:0016197	endosomal transport	92	0.62	Spom
+GO:0016197	endosomal transport	79	0.63	Scer
+GO:0016570	histone modification	27	0.41	Anid
+GO:0016570	histone modification	45	0.60	Calb
+GO:0016570	histone modification	21	0.61	Cneo
+GO:0016570	histone modification	6	0.65	Ecun
+GO:0016570	histone modification	26	0.48	Ncra
+GO:0016570	histone modification	4	0.21	Rozella
+GO:0016570	histone modification	173	1.17	Spom
+GO:0016570	histone modification	104	0.83	Scer
+GO:0018193	peptidyl-amino acid modification	74	1.12	Anid
+GO:0018193	peptidyl-amino acid modification	68	0.91	Calb
+GO:0018193	peptidyl-amino acid modification	58	1.68	Cneo
+GO:0018193	peptidyl-amino acid modification	15	1.62	Ecun
+GO:0018193	peptidyl-amino acid modification	68	1.26	Ncra
+GO:0018193	peptidyl-amino acid modification	8	0.42	Rozella
+GO:0018193	peptidyl-amino acid modification	99	0.67	Spom
+GO:0018193	peptidyl-amino acid modification	87	0.69	Scer
+GO:0023052	signaling	260	3.92	Anid
+GO:0023052	signaling	325	4.35	Calb
+GO:0023052	signaling	210	6.10	Cneo
+GO:0023052	signaling	50	5.39	Ecun
+GO:0023052	signaling	259	4.80	Ncra
+GO:0023052	signaling	259	13.65	Rozella
+GO:0023052	signaling	510	3.44	Spom
+GO:0023052	signaling	228	1.81	Scer
+GO:0031399	regulation of protein modification process	24	0.36	Anid
+GO:0031399	regulation of protein modification process	15	0.20	Calb
+GO:0031399	regulation of protein modification process	3	0.09	Cneo
+GO:0031399	regulation of protein modification process	2	0.22	Ecun
+GO:0031399	regulation of protein modification process	15	0.28	Ncra
+GO:0031399	regulation of protein modification process	3	0.16	Rozella
+GO:0031399	regulation of protein modification process	111	0.75	Spom
+GO:0031399	regulation of protein modification process	75	0.60	Scer
+GO:0032196	transposition	8	0.12	Anid
+GO:0032196	transposition	0	0.00	Calb
+GO:0032196	transposition	0	0.00	Cneo
+GO:0032196	transposition	0	0.00	Ecun
+GO:0032196	transposition	0	0.00	Ncra
+GO:0032196	transposition	0	0.00	Rozella
+GO:0032196	transposition	1	0.01	Spom
+GO:0032196	transposition	20	0.16	Scer
+GO:0032200	telomere organization	3	0.05	Anid
+GO:0032200	telomere organization	26	0.35	Calb
+GO:0032200	telomere organization	2	0.06	Cneo
+GO:0032200	telomere organization	1	0.11	Ecun
+GO:0032200	telomere organization	4	0.07	Ncra
+GO:0032200	telomere organization	0	0.00	Rozella
+GO:0032200	telomere organization	75	0.51	Spom
+GO:0032200	telomere organization	67	0.53	Scer
+GO:0032543	mitochondrial translation	5	0.08	Anid
+GO:0032543	mitochondrial translation	1	0.01	Calb
+GO:0032543	mitochondrial translation	1	0.03	Cneo
+GO:0032543	mitochondrial translation	0	0.00	Ecun
+GO:0032543	mitochondrial translation	5	0.09	Ncra
+GO:0032543	mitochondrial translation	0	0.00	Rozella
+GO:0032543	mitochondrial translation	151	1.02	Spom
+GO:0032543	mitochondrial translation	137	1.09	Scer
+GO:0033043	regulation of organelle organization	24	0.36	Anid
+GO:0033043	regulation of organelle organization	16	0.21	Calb
+GO:0033043	regulation of organelle organization	9	0.26	Cneo
+GO:0033043	regulation of organelle organization	0	0.00	Ecun
+GO:0033043	regulation of organelle organization	23	0.43	Ncra
+GO:0033043	regulation of organelle organization	5	0.26	Rozella
+GO:0033043	regulation of organelle organization	223	1.50	Spom
+GO:0033043	regulation of organelle organization	151	1.20	Scer
+GO:0042221	response to chemical stimulus	50	0.75	Anid
+GO:0042221	response to chemical stimulus	647	8.66	Calb
+GO:0042221	response to chemical stimulus	7	0.20	Cneo
+GO:0042221	response to chemical stimulus	1	0.11	Ecun
+GO:0042221	response to chemical stimulus	46	0.85	Ncra
+GO:0042221	response to chemical stimulus	4	0.21	Rozella
+GO:0042221	response to chemical stimulus	612	4.12	Spom
+GO:0042221	response to chemical stimulus	361	2.87	Scer
+GO:0042255	ribosome assembly	3	0.05	Anid
+GO:0042255	ribosome assembly	2	0.03	Calb
+GO:0042255	ribosome assembly	3	0.09	Cneo
+GO:0042255	ribosome assembly	2	0.22	Ecun
+GO:0042255	ribosome assembly	4	0.07	Ncra
+GO:0042255	ribosome assembly	2	0.11	Rozella
+GO:0042255	ribosome assembly	22	0.15	Spom
+GO:0042255	ribosome assembly	56	0.44	Scer
+GO:0042273	ribosomal large subunit biogenesis	6	0.09	Anid
+GO:0042273	ribosomal large subunit biogenesis	1	0.01	Calb
+GO:0042273	ribosomal large subunit biogenesis	1	0.03	Cneo
+GO:0042273	ribosomal large subunit biogenesis	0	0.00	Ecun
+GO:0042273	ribosomal large subunit biogenesis	10	0.19	Ncra
+GO:0042273	ribosomal large subunit biogenesis	0	0.00	Rozella
+GO:0042273	ribosomal large subunit biogenesis	20	0.13	Spom
+GO:0042273	ribosomal large subunit biogenesis	81	0.64	Scer
+GO:0042274	ribosomal small subunit biogenesis	32	0.48	Anid
+GO:0042274	ribosomal small subunit biogenesis	2	0.03	Calb
+GO:0042274	ribosomal small subunit biogenesis	0	0.00	Cneo
+GO:0042274	ribosomal small subunit biogenesis	0	0.00	Ecun
+GO:0042274	ribosomal small subunit biogenesis	24	0.44	Ncra
+GO:0042274	ribosomal small subunit biogenesis	0	0.00	Rozella
+GO:0042274	ribosomal small subunit biogenesis	54	0.36	Spom
+GO:0042274	ribosomal small subunit biogenesis	125	0.99	Scer
+GO:0042594	response to starvation	3	0.05	Anid
+GO:0042594	response to starvation	480	6.43	Calb
+GO:0042594	response to starvation	0	0.00	Cneo
+GO:0042594	response to starvation	0	0.00	Ecun
+GO:0042594	response to starvation	4	0.07	Ncra
+GO:0042594	response to starvation	0	0.00	Rozella
+GO:0042594	response to starvation	156	1.05	Spom
+GO:0042594	response to starvation	83	0.66	Scer
+GO:0043144	snoRNA processing	2	0.03	Anid
+GO:0043144	snoRNA processing	1	0.01	Calb
+GO:0043144	snoRNA processing	1	0.03	Cneo
+GO:0043144	snoRNA processing	0	0.00	Ecun
+GO:0043144	snoRNA processing	3	0.06	Ncra
+GO:0043144	snoRNA processing	1	0.05	Rozella
+GO:0043144	snoRNA processing	8	0.05	Spom
+GO:0043144	snoRNA processing	39	0.31	Scer
+GO:0043543	protein acylation	10	0.15	Anid
+GO:0043543	protein acylation	23	0.31	Calb
+GO:0043543	protein acylation	3	0.09	Cneo
+GO:0043543	protein acylation	1	0.11	Ecun
+GO:0043543	protein acylation	10	0.19	Ncra
+GO:0043543	protein acylation	1	0.05	Rozella
+GO:0043543	protein acylation	75	0.51	Spom
+GO:0043543	protein acylation	64	0.51	Scer
+GO:0043934	sporulation	35	0.53	Anid
+GO:0043934	sporulation	23	0.31	Calb
+GO:0043934	sporulation	1	0.03	Cneo
+GO:0043934	sporulation	10	1.08	Ecun
+GO:0043934	sporulation	28	0.52	Ncra
+GO:0043934	sporulation	0	0.00	Rozella
+GO:0043934	sporulation	145	0.98	Spom
+GO:0043934	sporulation	129	1.02	Scer
+GO:0045333	cellular respiration	37	0.56	Anid
+GO:0045333	cellular respiration	66	0.88	Calb
+GO:0045333	cellular respiration	27	0.78	Cneo
+GO:0045333	cellular respiration	0	0.00	Ecun
+GO:0045333	cellular respiration	65	1.20	Ncra
+GO:0045333	cellular respiration	14	0.74	Rozella
+GO:0045333	cellular respiration	82	0.55	Spom
+GO:0045333	cellular respiration	91	0.72	Scer
+GO:0048193	Golgi vesicle transport	24	0.36	Anid
+GO:0048193	Golgi vesicle transport	28	0.37	Calb
+GO:0048193	Golgi vesicle transport	13	0.38	Cneo
+GO:0048193	Golgi vesicle transport	5	0.54	Ecun
+GO:0048193	Golgi vesicle transport	33	0.61	Ncra
+GO:0048193	Golgi vesicle transport	8	0.42	Rozella
+GO:0048193	Golgi vesicle transport	148	1.00	Spom
+GO:0048193	Golgi vesicle transport	187	1.49	Scer
+GO:0048284	organelle fusion	1	0.02	Anid
+GO:0048284	organelle fusion	3	0.04	Calb
+GO:0048284	organelle fusion	1	0.03	Cneo
+GO:0048284	organelle fusion	0	0.00	Ecun
+GO:0048284	organelle fusion	3	0.06	Ncra
+GO:0048284	organelle fusion	1	0.05	Rozella
+GO:0048284	organelle fusion	24	0.16	Spom
+GO:0048284	organelle fusion	66	0.52	Scer
+GO:0048285	organelle fission	41	0.62	Anid
+GO:0048285	organelle fission	38	0.51	Calb
+GO:0048285	organelle fission	18	0.52	Cneo
+GO:0048285	organelle fission	14	1.51	Ecun
+GO:0048285	organelle fission	32	0.59	Ncra
+GO:0048285	organelle fission	8	0.42	Rozella
+GO:0048285	organelle fission	307	2.07	Spom
+GO:0048285	organelle fission	130	1.03	Scer
+GO:0048308	organelle inheritance	7	0.11	Anid
+GO:0048308	organelle inheritance	1	0.01	Calb
+GO:0048308	organelle inheritance	0	0.00	Cneo
+GO:0048308	organelle inheritance	0	0.00	Ecun
+GO:0048308	organelle inheritance	6	0.11	Ncra
+GO:0048308	organelle inheritance	0	0.00	Rozella
+GO:0048308	organelle inheritance	7	0.05	Spom
+GO:0048308	organelle inheritance	57	0.45	Scer
+GO:0051049	regulation of transport	5	0.08	Anid
+GO:0051049	regulation of transport	5	0.07	Calb
+GO:0051049	regulation of transport	3	0.09	Cneo
+GO:0051049	regulation of transport	1	0.11	Ecun
+GO:0051049	regulation of transport	7	0.13	Ncra
+GO:0051049	regulation of transport	3	0.16	Rozella
+GO:0051049	regulation of transport	83	0.56	Spom
+GO:0051049	regulation of transport	64	0.51	Scer
+GO:0051052	regulation of DNA metabolic process	5	0.08	Anid
+GO:0051052	regulation of DNA metabolic process	5	0.07	Calb
+GO:0051052	regulation of DNA metabolic process	2	0.06	Cneo
+GO:0051052	regulation of DNA metabolic process	1	0.11	Ecun
+GO:0051052	regulation of DNA metabolic process	6	0.11	Ncra
+GO:0051052	regulation of DNA metabolic process	2	0.11	Rozella
+GO:0051052	regulation of DNA metabolic process	77	0.52	Spom
+GO:0051052	regulation of DNA metabolic process	80	0.64	Scer
+GO:0051169	nuclear transport	10	0.15	Anid
+GO:0051169	nuclear transport	17	0.23	Calb
+GO:0051169	nuclear transport	6	0.17	Cneo
+GO:0051169	nuclear transport	4	0.43	Ecun
+GO:0051169	nuclear transport	19	0.35	Ncra
+GO:0051169	nuclear transport	21	1.11	Rozella
+GO:0051169	nuclear transport	133	0.90	Spom
+GO:0051169	nuclear transport	162	1.29	Scer
+GO:0051186	cofactor metabolic process	182	2.74	Anid
+GO:0051186	cofactor metabolic process	197	2.64	Calb
+GO:0051186	cofactor metabolic process	126	3.66	Cneo
+GO:0051186	cofactor metabolic process	13	1.40	Ecun
+GO:0051186	cofactor metabolic process	185	3.43	Ncra
+GO:0051186	cofactor metabolic process	53	2.79	Rozella
+GO:0051186	cofactor metabolic process	164	1.10	Spom
+GO:0051186	cofactor metabolic process	146	1.16	Scer
+GO:0051321	meiotic cell cycle	20	0.30	Anid
+GO:0051321	meiotic cell cycle	9	0.12	Calb
+GO:0051321	meiotic cell cycle	3	0.09	Cneo
+GO:0051321	meiotic cell cycle	6	0.65	Ecun
+GO:0051321	meiotic cell cycle	34	0.63	Ncra
+GO:0051321	meiotic cell cycle	1	0.05	Rozella
+GO:0051321	meiotic cell cycle	351	2.36	Spom
+GO:0051321	meiotic cell cycle	164	1.30	Scer
+GO:0051603	proteolysis involved in cellular protein catabolic process	70	1.06	Anid
+GO:0051603	proteolysis involved in cellular protein catabolic process	72	0.96	Calb
+GO:0051603	proteolysis involved in cellular protein catabolic process	53	1.54	Cneo
+GO:0051603	proteolysis involved in cellular protein catabolic process	28	3.02	Ecun
+GO:0051603	proteolysis involved in cellular protein catabolic process	66	1.22	Ncra
+GO:0051603	proteolysis involved in cellular protein catabolic process	49	2.58	Rozella
+GO:0051603	proteolysis involved in cellular protein catabolic process	230	1.55	Spom
+GO:0051603	proteolysis involved in cellular protein catabolic process	190	1.51	Scer
+GO:0051604	protein maturation	9	0.14	Anid
+GO:0051604	protein maturation	24	0.32	Calb
+GO:0051604	protein maturation	2	0.06	Cneo
+GO:0051604	protein maturation	4	0.43	Ecun
+GO:0051604	protein maturation	9	0.17	Ncra
+GO:0051604	protein maturation	6	0.32	Rozella
+GO:0051604	protein maturation	43	0.29	Spom
+GO:0051604	protein maturation	45	0.36	Scer
+GO:0051726	regulation of cell cycle	35	0.53	Anid
+GO:0051726	regulation of cell cycle	61	0.82	Calb
+GO:0051726	regulation of cell cycle	21	0.61	Cneo
+GO:0051726	regulation of cell cycle	3	0.32	Ecun
+GO:0051726	regulation of cell cycle	35	0.65	Ncra
+GO:0051726	regulation of cell cycle	16	0.84	Rozella
+GO:0051726	regulation of cell cycle	557	3.75	Spom
+GO:0051726	regulation of cell cycle	191	1.52	Scer
+GO:0055085	transmembrane transport	674	10.16	Anid
+GO:0055085	transmembrane transport	440	5.89	Calb
+GO:0055085	transmembrane transport	345	10.02	Cneo
+GO:0055085	transmembrane transport	33	3.56	Ecun
+GO:0055085	transmembrane transport	382	7.08	Ncra
+GO:0055085	transmembrane transport	110	5.80	Rozella
+GO:0055085	transmembrane transport	379	2.55	Spom
+GO:0055085	transmembrane transport	225	1.79	Scer
+GO:0055086	nucleobase-containing small molecule metabolic process	445	6.71	Anid
+GO:0055086	nucleobase-containing small molecule metabolic process	429	5.75	Calb
+GO:0055086	nucleobase-containing small molecule metabolic process	283	8.22	Cneo
+GO:0055086	nucleobase-containing small molecule metabolic process	85	9.16	Ecun
+GO:0055086	nucleobase-containing small molecule metabolic process	420	7.78	Ncra
+GO:0055086	nucleobase-containing small molecule metabolic process	143	7.54	Rozella
+GO:0055086	nucleobase-containing small molecule metabolic process	294	1.98	Spom
+GO:0055086	nucleobase-containing small molecule metabolic process	187	1.49	Scer
+GO:0061025	membrane fusion	8	0.12	Anid
+GO:0061025	membrane fusion	4	0.05	Calb
+GO:0061025	membrane fusion	2	0.06	Cneo
+GO:0061025	membrane fusion	0	0.00	Ecun
+GO:0061025	membrane fusion	10	0.19	Ncra
+GO:0061025	membrane fusion	1	0.05	Rozella
+GO:0061025	membrane fusion	52	0.35	Spom
+GO:0061025	membrane fusion	80	0.64	Scer
+GO:0070271	protein complex biogenesis	45	0.68	Anid
+GO:0070271	protein complex biogenesis	33	0.44	Calb
+GO:0070271	protein complex biogenesis	19	0.55	Cneo
+GO:0070271	protein complex biogenesis	3	0.32	Ecun
+GO:0070271	protein complex biogenesis	38	0.70	Ncra
+GO:0070271	protein complex biogenesis	20	1.05	Rozella
+GO:0070271	protein complex biogenesis	176	1.19	Spom
+GO:0070271	protein complex biogenesis	240	1.91	Scer
+GO:0070647	protein modification by small protein conjugation or removal	33	0.50	Anid
+GO:0070647	protein modification by small protein conjugation or removal	32	0.43	Calb
+GO:0070647	protein modification by small protein conjugation or removal	16	0.46	Cneo
+GO:0070647	protein modification by small protein conjugation or removal	4	0.43	Ecun
+GO:0070647	protein modification by small protein conjugation or removal	29	0.54	Ncra
+GO:0070647	protein modification by small protein conjugation or removal	4	0.21	Rozella
+GO:0070647	protein modification by small protein conjugation or removal	218	1.47	Spom
+GO:0070647	protein modification by small protein conjugation or removal	153	1.22	Scer
+GO:0070925	organelle assembly	5	0.08	Anid
+GO:0070925	organelle assembly	1	0.01	Calb
+GO:0070925	organelle assembly	0	0.00	Cneo
+GO:0070925	organelle assembly	0	0.00	Ecun
+GO:0070925	organelle assembly	5	0.09	Ncra
+GO:0070925	organelle assembly	1	0.05	Rozella
+GO:0070925	organelle assembly	34	0.23	Spom
+GO:0070925	organelle assembly	79	0.63	Scer
+GO:0071554	cell wall organization or biogenesis	118	1.78	Anid
+GO:0071554	cell wall organization or biogenesis	152	2.04	Calb
+GO:0071554	cell wall organization or biogenesis	2	0.06	Cneo
+GO:0071554	cell wall organization or biogenesis	1	0.11	Ecun
+GO:0071554	cell wall organization or biogenesis	37	0.69	Ncra
+GO:0071554	cell wall organization or biogenesis	6	0.32	Rozella
+GO:0071554	cell wall organization or biogenesis	189	1.27	Spom
+GO:0071554	cell wall organization or biogenesis	187	1.49	Scer

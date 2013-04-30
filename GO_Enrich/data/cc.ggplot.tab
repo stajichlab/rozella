@@ -1,0 +1,177 @@
+GO_ID	GO_Term	Count	Percentage	Samples
+GO:0005576	extracellular region	232	3.32	Anid
+GO:0005576	extracellular region	166	2.28	Calb
+GO:0005576	extracellular region	6	0.15	Cneo
+GO:0005576	extracellular region	4	0.29	Ecun
+GO:0005576	extracellular region	54	0.78	Ncra
+GO:0005576	extracellular region	3	0.23	Rozella
+GO:0005576	extracellular region	59	0.32	Spom
+GO:0005576	extracellular region	27	0.21	Scer
+GO:0005618	cell wall	21	0.30	Anid
+GO:0005618	cell wall	290	3.99	Calb
+GO:0005618	cell wall	1	0.02	Cneo
+GO:0005618	cell wall	7	0.50	Ecun
+GO:0005618	cell wall	19	0.28	Ncra
+GO:0005618	cell wall	0	0.00	Rozella
+GO:0005618	cell wall	69	0.38	Spom
+GO:0005618	cell wall	95	0.75	Scer
+GO:0005634	nucleus	1455	20.84	Anid
+GO:0005634	nucleus	1169	16.07	Calb
+GO:0005634	nucleus	782	19.04	Cneo
+GO:0005634	nucleus	338	24.26	Ecun
+GO:0005634	nucleus	1116	16.18	Ncra
+GO:0005634	nucleus	205	15.68	Rozella
+GO:0005634	nucleus	4420	24.09	Spom
+GO:0005634	nucleus	1999	15.80	Scer
+GO:0005694	chromosome	140	2.01	Anid
+GO:0005694	chromosome	189	2.60	Calb
+GO:0005694	chromosome	92	2.24	Cneo
+GO:0005694	chromosome	49	3.52	Ecun
+GO:0005694	chromosome	150	2.17	Ncra
+GO:0005694	chromosome	36	2.75	Rozella
+GO:0005694	chromosome	776	4.23	Spom
+GO:0005694	chromosome	353	2.79	Scer
+GO:0005730	nucleolus	70	1.00	Anid
+GO:0005730	nucleolus	65	0.89	Calb
+GO:0005730	nucleolus	45	1.10	Cneo
+GO:0005730	nucleolus	15	1.08	Ecun
+GO:0005730	nucleolus	70	1.01	Ncra
+GO:0005730	nucleolus	8	0.61	Rozella
+GO:0005730	nucleolus	446	2.43	Spom
+GO:0005730	nucleolus	321	2.54	Scer
+GO:0005737	cytoplasm	1183	16.94	Anid
+GO:0005737	cytoplasm	1242	17.08	Calb
+GO:0005737	cytoplasm	763	18.58	Cneo
+GO:0005737	cytoplasm	376	26.99	Ecun
+GO:0005737	cytoplasm	1404	20.35	Ncra
+GO:0005737	cytoplasm	254	19.43	Rozella
+GO:0005737	cytoplasm	5219	28.45	Spom
+GO:0005737	cytoplasm	3847	30.42	Scer
+GO:0005739	mitochondrion	362	5.18	Anid
+GO:0005739	mitochondrion	403	5.54	Calb
+GO:0005739	mitochondrion	197	4.80	Cneo
+GO:0005739	mitochondrion	7	0.50	Ecun
+GO:0005739	mitochondrion	663	9.61	Ncra
+GO:0005739	mitochondrion	38	2.91	Rozella
+GO:0005739	mitochondrion	1138	6.20	Spom
+GO:0005739	mitochondrion	1142	9.03	Scer
+GO:0005740	mitochondrial envelope	129	1.85	Anid
+GO:0005740	mitochondrial envelope	171	2.35	Calb
+GO:0005740	mitochondrial envelope	96	2.34	Cneo
+GO:0005740	mitochondrial envelope	2	0.14	Ecun
+GO:0005740	mitochondrial envelope	279	4.04	Ncra
+GO:0005740	mitochondrial envelope	26	1.99	Rozella
+GO:0005740	mitochondrial envelope	250	1.36	Spom
+GO:0005740	mitochondrial envelope	352	2.78	Scer
+GO:0005773	vacuole	72	1.03	Anid
+GO:0005773	vacuole	58	0.80	Calb
+GO:0005773	vacuole	23	0.56	Cneo
+GO:0005773	vacuole	3	0.22	Ecun
+GO:0005773	vacuole	83	1.20	Ncra
+GO:0005773	vacuole	3	0.23	Rozella
+GO:0005773	vacuole	185	1.01	Spom
+GO:0005773	vacuole	232	1.83	Scer
+GO:0005777	peroxisome	36	0.52	Anid
+GO:0005777	peroxisome	48	0.66	Calb
+GO:0005777	peroxisome	13	0.32	Cneo
+GO:0005777	peroxisome	2	0.14	Ecun
+GO:0005777	peroxisome	33	0.48	Ncra
+GO:0005777	peroxisome	13	0.99	Rozella
+GO:0005777	peroxisome	29	0.16	Spom
+GO:0005777	peroxisome	69	0.55	Scer
+GO:0005783	endoplasmic reticulum	159	2.28	Anid
+GO:0005783	endoplasmic reticulum	193	2.65	Calb
+GO:0005783	endoplasmic reticulum	99	2.41	Cneo
+GO:0005783	endoplasmic reticulum	27	1.94	Ecun
+GO:0005783	endoplasmic reticulum	181	2.62	Ncra
+GO:0005783	endoplasmic reticulum	30	2.30	Rozella
+GO:0005783	endoplasmic reticulum	817	4.45	Spom
+GO:0005783	endoplasmic reticulum	392	3.10	Scer
+GO:0005794	Golgi apparatus	60	0.86	Anid
+GO:0005794	Golgi apparatus	93	1.28	Calb
+GO:0005794	Golgi apparatus	52	1.27	Cneo
+GO:0005794	Golgi apparatus	27	1.94	Ecun
+GO:0005794	Golgi apparatus	76	1.10	Ncra
+GO:0005794	Golgi apparatus	13	0.99	Rozella
+GO:0005794	Golgi apparatus	412	2.25	Spom
+GO:0005794	Golgi apparatus	168	1.33	Scer
+GO:0005815	microtubule organizing center	11	0.16	Anid
+GO:0005815	microtubule organizing center	5	0.07	Calb
+GO:0005815	microtubule organizing center	6	0.15	Cneo
+GO:0005815	microtubule organizing center	4	0.29	Ecun
+GO:0005815	microtubule organizing center	10	0.14	Ncra
+GO:0005815	microtubule organizing center	2	0.15	Rozella
+GO:0005815	microtubule organizing center	294	1.60	Spom
+GO:0005815	microtubule organizing center	74	0.59	Scer
+GO:0005840	ribosome	268	3.84	Anid
+GO:0005840	ribosome	172	2.36	Calb
+GO:0005840	ribosome	225	5.48	Cneo
+GO:0005840	ribosome	149	10.70	Ecun
+GO:0005840	ribosome	263	3.81	Ncra
+GO:0005840	ribosome	113	8.65	Rozella
+GO:0005840	ribosome	287	1.56	Spom
+GO:0005840	ribosome	357	2.82	Scer
+GO:0005856	cytoskeleton	162	2.32	Anid
+GO:0005856	cytoskeleton	137	1.88	Calb
+GO:0005856	cytoskeleton	86	2.09	Cneo
+GO:0005856	cytoskeleton	39	2.80	Ecun
+GO:0005856	cytoskeleton	146	2.12	Ncra
+GO:0005856	cytoskeleton	55	4.21	Rozella
+GO:0005856	cytoskeleton	629	3.43	Spom
+GO:0005856	cytoskeleton	209	1.65	Scer
+GO:0005886	plasma membrane	78	1.12	Anid
+GO:0005886	plasma membrane	346	4.76	Calb
+GO:0005886	plasma membrane	17	0.41	Cneo
+GO:0005886	plasma membrane	12	0.86	Ecun
+GO:0005886	plasma membrane	70	1.01	Ncra
+GO:0005886	plasma membrane	6	0.46	Rozella
+GO:0005886	plasma membrane	260	1.42	Spom
+GO:0005886	plasma membrane	361	2.85	Scer
+GO:0005933	cellular bud	11	0.16	Anid
+GO:0005933	cellular bud	58	0.80	Calb
+GO:0005933	cellular bud	0	0.00	Cneo
+GO:0005933	cellular bud	0	0.00	Ecun
+GO:0005933	cellular bud	15	0.22	Ncra
+GO:0005933	cellular bud	0	0.00	Rozella
+GO:0005933	cellular bud	0	0.00	Spom
+GO:0005933	cellular bud	190	1.50	Scer
+GO:0005938	cell cortex	26	0.37	Anid
+GO:0005938	cell cortex	62	0.85	Calb
+GO:0005938	cell cortex	8	0.19	Cneo
+GO:0005938	cell cortex	4	0.29	Ecun
+GO:0005938	cell cortex	24	0.35	Ncra
+GO:0005938	cell cortex	10	0.77	Rozella
+GO:0005938	cell cortex	215	1.17	Spom
+GO:0005938	cell cortex	134	1.06	Scer
+GO:0012505	endomembrane system	158	2.26	Anid
+GO:0012505	endomembrane system	201	2.76	Calb
+GO:0012505	endomembrane system	125	3.04	Cneo
+GO:0012505	endomembrane system	38	2.73	Ecun
+GO:0012505	endomembrane system	178	2.58	Ncra
+GO:0012505	endomembrane system	44	3.37	Rozella
+GO:0012505	endomembrane system	620	3.38	Spom
+GO:0012505	endomembrane system	373	2.95	Scer
+GO:0016020	membrane	2299	32.93	Anid
+GO:0016020	membrane	2086	28.68	Calb
+GO:0016020	membrane	1448	35.26	Cneo
+GO:0016020	membrane	278	19.96	Ecun
+GO:0016020	membrane	2014	29.19	Ncra
+GO:0016020	membrane	439	33.59	Rozella
+GO:0016020	membrane	2109	11.50	Spom
+GO:0016020	membrane	1616	12.78	Scer
+GO:0016023	cytoplasmic membrane-bounded vesicle	32	0.46	Anid
+GO:0016023	cytoplasmic membrane-bounded vesicle	28	0.38	Calb
+GO:0016023	cytoplasmic membrane-bounded vesicle	22	0.54	Cneo
+GO:0016023	cytoplasmic membrane-bounded vesicle	12	0.86	Ecun
+GO:0016023	cytoplasmic membrane-bounded vesicle	31	0.45	Ncra
+GO:0016023	cytoplasmic membrane-bounded vesicle	9	0.69	Rozella
+GO:0016023	cytoplasmic membrane-bounded vesicle	81	0.44	Spom
+GO:0016023	cytoplasmic membrane-bounded vesicle	107	0.85	Scer
+GO:0030427	site of polarized growth	18	0.26	Anid
+GO:0030427	site of polarized growth	91	1.25	Calb
+GO:0030427	site of polarized growth	1	0.02	Cneo
+GO:0030427	site of polarized growth	0	0.00	Ecun
+GO:0030427	site of polarized growth	20	0.29	Ncra
+GO:0030427	site of polarized growth	0	0.00	Rozella
+GO:0030427	site of polarized growth	30	0.16	Spom
+GO:0030427	site of polarized growth	230	1.82	Scer
