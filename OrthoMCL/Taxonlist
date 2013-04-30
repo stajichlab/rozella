@@ -1,32 +1,55 @@
-Afum
-Agos
-Bden
-Ccin
-Cint
-Cmer
-CneoA
-Crei
-Ddis
-Dmel
-Ebie
-Ecun
-Eint
-Hmag
-Hpol
-Mbre
-Ncer
-Ncra
-NparERTm1
-Pbla
-Pult
-Rall
-Rory
-Scer
-Spom
-Sscl
-Tgon
-Tpse
-Umay
-Vcul
-Wseb
-Ylip
+
+#AF Ascomycete Fungus
+#BF Basidiomycete Fungus
+#CF Chytrid Fungus
+#ZF Zygomycete Fungus
+#MF Microsporidia Fungus
+#OA  Animal (outgroup)
+#OP  Plant (outgroup)
+#OAO Red/Brown Algae and Oomycetes (outgroup)
+#OAM	Amoebozoa (outgroup)
+#OAP	Apicomplexian (outgroup)
+Afum	AF	Aspergillus fumigatus
+Agos	AF	Ashbya gossypii
+Aloc	MF	Antonospora locustae
+Amac	CF	Allomyces macrogynsus
+Amoe	OAM?	Amoeboaphelidium
+Bden	CF	Batrachochytrium dendrobatidis
+Ccin	BF	Coprinopsis cinerea
+Cint	OA	Ciona intestinalis
+Cmer	OAO	Cyanidioschyzon merolae
+CneoA	BF	Cryptococcus neoformans H99
+Cowc	OA	Capsaspora owczarzaki	v.1.0.Broad	http://www.broadinstitute.org/annotation/genome/multicellularity_project/MultiHome.html
+Crei	OP	Chlamydomonas reinhardtii
+Crev	ZF	Coemansia reversa v1.0.JGI	http://genome.jgi.doe.gov/Coere1/Coere1.home.html
+Ddis	OAM	Dictyostelium discoideum
+Dmel	OA	Drosophila melanogaster
+Ebie	MF	Enterocytozoon bieneusi
+Ecun	MF	Encephalitozoon cuniculi
+Eint	MF	Encephalitozoon intestinalis
+Hmag	OA	Hydra magnipapillata
+Hpol	CF	Homolaphlyctis polyrhiza
+Mbre	OA	Monosiga brevicollis
+Mcir	ZF	Mucor circinelloides
+Mver	ZF	Mortierella verticillata
+Ncer	MF	Nosema ceranae
+Ncra	AF	Neurospora crassa
+NparERTm1	MF	Nematocida parisii ERTm1
+Pbla	ZF	Phycomyces blakesleeanus NRRL1555 v2.0.JGI	http://genome.jgi-psf.org/Phybl2/Phybl2.home.html
+PirE2	CF	Piromyces spp E2
+Pult	OAO	Pythium ultimatum BR144 v.2010-07-12	http://pythium.plantbiology.msu.edu/
+Rall	MF	Rozella allomycis v.2012-05-03
+Rory	ZF	Rhizopus oryzae (delamar) 99-880 v.1	http://www.broadinstitute.org/annotation/genome/rhizopus_oryzae/
+Scer	AF	Saccharomyces cerevisiae S288C v.2011-02-03	http://yeastgenome.org
+Spom	AF	Schizosaccharomyces pombe v.20
+Spun	CF	Spizellomyces puncatus
+Sros	BF	Sporobolomyces roseus
+Sros50818	OA	Salpingoeca rosetta
+Sscl	AF	Sclerotina sclerotiorum 1980_UF-70.30 v.2009-01.Broad
+Tgon	OAP	Toxoplasma gondii ME49 v.2008-07-23.ToxoDB-7.2
+Tpse	OAO	Thalassiosira pseudonana CCMP1335 v.JGI3
+Ttra	OA	Thecamonas trahens ATCC 50062 v.1.Broad
+Umay	BF	Ustilago maydis v.2011-05-24.MIPS
+Vcul	MF	Vavraia culicis floridensis v.1.Broad
+Wseb	BF	Wallemia sebi CBS-633.66 v.JGI1
+Ylip	AF	Yarrowia lipolytica CLIB122v.14-APR-2010
