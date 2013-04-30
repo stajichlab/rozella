@@ -1,4 +1,4 @@
-rozella
+Rozella
 =======
 
-Rozella genome project
+Rozella genome project, scripts and data in support of the project
