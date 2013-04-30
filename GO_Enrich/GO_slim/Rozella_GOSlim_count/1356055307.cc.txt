@@ -1,0 +1,20 @@
+GO:0005575	cellular_component	770
+GO:0005576	extracellular region	3
+GO:0005634	nucleus	205
+GO:0005694	chromosome	36
+GO:0005730	nucleolus	8
+GO:0005737	cytoplasm	254
+GO:0005739	mitochondrion	38
+GO:0005740	mitochondrial envelope	26
+GO:0005773	vacuole	3
+GO:0005777	peroxisome	13
+GO:0005783	endoplasmic reticulum	30
+GO:0005794	Golgi apparatus	13
+GO:0005815	microtubule organizing center	2
+GO:0005840	ribosome	113
+GO:0005856	cytoskeleton	55
+GO:0005886	plasma membrane	6
+GO:0005938	cell cortex	10
+GO:0012505	endomembrane system	44
+GO:0016020	membrane	439
+GO:0016023	cytoplasmic membrane-bounded vesicle	9

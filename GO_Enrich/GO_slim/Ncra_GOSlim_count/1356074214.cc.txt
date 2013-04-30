@@ -1,0 +1,23 @@
+GO:0005575	cellular_component	2523
+GO:0005576	extracellular region	54
+GO:0005618	cell wall	19
+GO:0005634	nucleus	1116
+GO:0005694	chromosome	150
+GO:0005730	nucleolus	70
+GO:0005737	cytoplasm	1404
+GO:0005739	mitochondrion	663
+GO:0005740	mitochondrial envelope	279
+GO:0005773	vacuole	83
+GO:0005777	peroxisome	33
+GO:0005783	endoplasmic reticulum	181
+GO:0005794	Golgi apparatus	76
+GO:0005815	microtubule organizing center	10
+GO:0005840	ribosome	263
+GO:0005856	cytoskeleton	146
+GO:0005886	plasma membrane	70
+GO:0005933	cellular bud	15
+GO:0005938	cell cortex	24
+GO:0012505	endomembrane system	178
+GO:0016020	membrane	2014
+GO:0016023	cytoplasmic membrane-bounded vesicle	31
+GO:0030427	site of polarized growth	20

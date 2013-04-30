@@ -1,0 +1,41 @@
+GO:0000988	protein binding transcription factor activity	10
+GO:0001071	nucleic acid binding transcription factor activity	137
+GO:0003674	molecular_function	4771
+GO:0003677	DNA binding	404
+GO:0003723	RNA binding	173
+GO:0003729	mRNA binding	1
+GO:0003735	structural constituent of ribosome	114
+GO:0003924	GTPase activity	32
+GO:0004386	helicase activity	198
+GO:0004518	nuclease activity	85
+GO:0004871	signal transducer activity	52
+GO:0005198	structural molecule activity	14
+GO:0008092	cytoskeletal protein binding	31
+GO:0008134	transcription factor binding	3
+GO:0008135	translation factor activity, nucleic acid binding	80
+GO:0008168	methyltransferase activity	132
+GO:0008233	peptidase activity	234
+GO:0008289	lipid binding	53
+GO:0008565	protein transporter activity	25
+GO:0016301	kinase activity	490
+GO:0016491	oxidoreductase activity	864
+GO:0016746	transferase activity, transferring acyl groups	109
+GO:0016757	transferase activity, transferring glycosyl groups	126
+GO:0016765	transferase activity, transferring alkyl or aryl (other than methyl) groups	24
+GO:0016779	nucleotidyltransferase activity	166
+GO:0016791	phosphatase activity	76
+GO:0016798	hydrolase activity, acting on glycosyl bonds	90
+GO:0016810	hydrolase activity, acting on carbon-nitrogen (but not peptide) bonds	66
+GO:0016829	lyase activity	141
+GO:0016853	isomerase activity	149
+GO:0016874	ligase activity	266
+GO:0016887	ATPase activity	157
+GO:0019843	rRNA binding	8
+GO:0019899	enzyme binding	17
+GO:0022857	transmembrane transporter activity	315
+GO:0030234	enzyme regulator activity	82
+GO:0030674	protein binding, bridging	2
+GO:0032182	small conjugating protein binding	2
+GO:0042393	histone binding	2
+GO:0043167	ion binding	1928
+GO:0051082	unfolded protein binding	40

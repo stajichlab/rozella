@@ -1,0 +1,22 @@
+GO:0005576	extracellular region	27
+GO:0005618	cell wall	95
+GO:0005634	nucleus	1999
+GO:0005694	chromosome	353
+GO:0005730	nucleolus	321
+GO:0005737	cytoplasm	3847
+GO:0005739	mitochondrion	1142
+GO:0005740	mitochondrial envelope	352
+GO:0005773	vacuole	232
+GO:0005777	peroxisome	69
+GO:0005783	endoplasmic reticulum	392
+GO:0005794	Golgi apparatus	168
+GO:0005815	microtubule organizing center	74
+GO:0005840	ribosome	357
+GO:0005856	cytoskeleton	209
+GO:0005886	plasma membrane	361
+GO:0005933	cellular bud	190
+GO:0005938	cell cortex	134
+GO:0012505	endomembrane system	373
+GO:0016020	membrane	1616
+GO:0016023	cytoplasmic membrane-bounded vesicle	107
+GO:0030427	site of polarized growth	230

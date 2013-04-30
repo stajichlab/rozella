@@ -1,0 +1,98 @@
+GO:0000054	ribosomal subunit export from nucleus	27
+GO:0000278	mitotic cell cycle	706
+GO:0000746	conjugation	204
+GO:0000902	cell morphogenesis	160
+GO:0000910	cytokinesis	222
+GO:0001403	invasive growth in response to glucose limitation	1
+GO:0002181	cytoplasmic translation	465
+GO:0005975	carbohydrate metabolic process	290
+GO:0006091	generation of precursor metabolites and energy	115
+GO:0006260	DNA replication	206
+GO:0006281	DNA repair	321
+GO:0006310	DNA recombination	184
+GO:0006325	chromatin organization	253
+GO:0006352	DNA-dependent transcription, initiation	60
+GO:0006353	DNA-dependent transcription, termination	15
+GO:0006354	DNA-dependent transcription, elongation	45
+GO:0006360	transcription from RNA polymerase I promoter	33
+GO:0006364	rRNA processing	198
+GO:0006366	transcription from RNA polymerase II promoter	630
+GO:0006383	transcription from RNA polymerase III promoter	32
+GO:0006397	mRNA processing	224
+GO:0006401	RNA catabolic process	178
+GO:0006413	translational initiation	77
+GO:0006414	translational elongation	53
+GO:0006417	regulation of translation	65
+GO:0006418	tRNA aminoacylation for protein translation	44
+GO:0006457	protein folding	151
+GO:0006468	protein phosphorylation	192
+GO:0006470	protein dephosphorylation	41
+GO:0006486	protein glycosylation	73
+GO:0006497	protein lipidation	41
+GO:0006520	cellular amino acid metabolic process	289
+GO:0006605	protein targeting	202
+GO:0006629	lipid metabolic process	336
+GO:0006766	vitamin metabolic process	50
+GO:0006811	ion transport	289
+GO:0006865	amino acid transport	76
+GO:0006869	lipid transport	19
+GO:0006873	cellular ion homeostasis	132
+GO:0006887	exocytosis	33
+GO:0006897	endocytosis	80
+GO:0006970	response to osmotic stress	58
+GO:0006974	response to DNA damage stimulus	134
+GO:0006979	response to oxidative stress	113
+GO:0006997	nucleus organization	33
+GO:0007005	mitochondrion organization	186
+GO:0007010	cytoskeleton organization	385
+GO:0007031	peroxisome organization	30
+GO:0007033	vacuole organization	38
+GO:0007059	chromosome segregation	299
+GO:0008033	tRNA processing	107
+GO:0008150	biological_process	9249
+GO:0008213	protein alkylation	74
+GO:0008380	RNA splicing	162
+GO:0008643	carbohydrate transport	30
+GO:0009311	oligosaccharide metabolic process	38
+GO:0009408	response to heat	39
+GO:0009451	RNA modification	105
+GO:0010324	membrane invagination	2
+GO:0015931	nucleobase-containing compound transport	90
+GO:0016050	vesicle organization	34
+GO:0016197	endosomal transport	92
+GO:0016570	histone modification	173
+GO:0018193	peptidyl-amino acid modification	99
+GO:0023052	signaling	510
+GO:0031399	regulation of protein modification process	111
+GO:0032196	transposition	1
+GO:0032200	telomere organization	75
+GO:0032543	mitochondrial translation	151
+GO:0033043	regulation of organelle organization	223
+GO:0042221	response to chemical stimulus	612
+GO:0042255	ribosome assembly	22
+GO:0042273	ribosomal large subunit biogenesis	20
+GO:0042274	ribosomal small subunit biogenesis	54
+GO:0042594	response to starvation	156
+GO:0043144	snoRNA processing	8
+GO:0043543	protein acylation	75
+GO:0043934	sporulation	145
+GO:0045333	cellular respiration	82
+GO:0048193	Golgi vesicle transport	148
+GO:0048284	organelle fusion	24
+GO:0048285	organelle fission	307
+GO:0048308	organelle inheritance	7
+GO:0051049	regulation of transport	83
+GO:0051052	regulation of DNA metabolic process	77
+GO:0051169	nuclear transport	133
+GO:0051186	cofactor metabolic process	164
+GO:0051321	meiotic cell cycle	351
+GO:0051603	proteolysis involved in cellular protein catabolic process	230
+GO:0051604	protein maturation	43
+GO:0051726	regulation of cell cycle	557
+GO:0055085	transmembrane transport	379
+GO:0055086	nucleobase-containing small molecule metabolic process	294
+GO:0061025	membrane fusion	52
+GO:0070271	protein complex biogenesis	176
+GO:0070647	protein modification by small protein conjugation or removal	218
+GO:0070925	organelle assembly	34
+GO:0071554	cell wall organization or biogenesis	189
