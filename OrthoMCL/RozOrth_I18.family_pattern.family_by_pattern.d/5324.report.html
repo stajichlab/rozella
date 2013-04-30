@@ -1,0 +1,1259 @@
+<HTML><HEAD><title>families with pattern 5324</title>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+
+    <script type="text/javascript">
+        function UpdateTableHeaders() {
+            $("div.divTableWithFloatingHeader").each(function() {
+                var originalHeaderRow = $(".tableFloatingHeaderOriginal", this);
+                var floatingHeaderRow = $(".tableFloatingHeader", this);
+                var offset = $(this).offset();
+                var scrollTop = $(window).scrollTop();
+                if ((scrollTop > offset.top) && (scrollTop < offset.top + $(this).height())) {
+                    floatingHeaderRow.css("visibility", "visible");
+                    floatingHeaderRow.css("top", Math.min(scrollTop - offset.top, $(this).height() - floatingHeaderRow.height()) + "px");
+
+                    // Copy cell widths from original header
+                    $("th", floatingHeaderRow).each(function(index) {
+                        var cellWidth = $("th", originalHeaderRow).eq(index).css('width');
+                        $(this).css('width', cellWidth);
+                    });
+
+                    // Copy row width from whole table
+                    floatingHeaderRow.css("width", $(this).css("width"));
+                }
+                else {
+                    floatingHeaderRow.css("visibility", "hidden");
+                    floatingHeaderRow.css("top", "0px");
+                }
+            });
+        }
+
+        $(document).ready(function() {
+            $("table.tableWithFloatingHeader").each(function() {
+                $(this).wrap("<div class=\"divTableWithFloatingHeader\" style=\"position:relative\"></div>");
+
+                var originalHeaderRow = $("tr:first", this)
+                originalHeaderRow.before(originalHeaderRow.clone());
+                var clonedHeaderRow = $("tr:first", this)
+
+                clonedHeaderRow.addClass("tableFloatingHeader");
+                clonedHeaderRow.css("position", "absolute");
+                clonedHeaderRow.css("top", "0px");
+                clonedHeaderRow.css("left", $(this).css("margin-left"));
+                clonedHeaderRow.css("visibility", "hidden");
+
+                originalHeaderRow.addClass("tableFloatingHeaderOriginal");
+            });
+            UpdateTableHeaders();
+            $(window).scroll(UpdateTableHeaders);
+            $(window).resize(UpdateTableHeaders);
+        });
+    </script>
+
+<style>
+<!--
+th {
+    background-color: lightgrey;
+    border: 1px solid black;
+}
+td {
+    border: 1px solid black;
+}
+-->
+</style>
+</HEAD><BODY BGCOLOR="WHITE">
+<table class="tableWithFloatingHeader" style="border: 3px">
+<thead><tr>
+  <th>FAMILY</th><th>Afum</th><th>Agos</th><th>Aloc</th><th>Amac</th><th>Amoe</th><th>Bden</th><th>Ccin</th><th>Cint</th><th>Cmer</th><th>CneoA</th><th>Cowc</th><th>Crei</th><th>Ddis</th><th>Dmel</th><th>Ebie</th><th>Ecun</th><th>Eint</th><th>Hmag</th><th>Hpol</th><th>Mbre</th><th>Mver</th><th>Ncer</th><th>Ncra</th><th>NparERTm1</th><th>Pbla</th><th>PirE2</th><th>Pult</th><th>Rall</th><th>Rory</th><th>Scer</th><th>Spom</th><th>Spun</th><th>Sros</th><th>Sscl</th><th>Tgon</th><th>Tpse</th><th>Umay</th><th>Vcul</th><th>Wseb</th><th>Ylip</th><th>PFAM Domains</th></tr></thead>
+<tbody>
+<tr>
+   <td><a target=seqfam href="../../RozOrth_I18.orthomcl_seqs/OG18_7406.pep.fa">OG18_7406</a></td>
+  <td>2</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>1</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>2</td>
+  <td>0</td>
+  <td>0</td>
+  <td>3</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td><a target=pfam href="http://pfam.sanger.ac.uk/family/Abhydrolase_3">Abhydrolase_3</a> (16),<a target=pfam href="http://pfam.sanger.ac.uk/family/Peptidase_S9">Peptidase_S9</a> (16),<a target=pfam href="http://pfam.sanger.ac.uk/family/Abhydrolase_5">Abhydrolase_5</a> (14),<a target=pfam href="http://pfam.sanger.ac.uk/family/DLH">DLH</a> (14),<a target=pfam href="http://pfam.sanger.ac.uk/family/Abhydrolase_6">Abhydrolase_6</a> (14),<a target=pfam href="http://pfam.sanger.ac.uk/family/BAAT_C">BAAT_C</a> (10),<a target=pfam href="http://pfam.sanger.ac.uk/family/AXE1">AXE1</a> (10),<a target=pfam href="http://pfam.sanger.ac.uk/family/COesterase">COesterase</a> (8),<a target=pfam href="http://pfam.sanger.ac.uk/family/Abhydrolase_2">Abhydrolase_2</a> (8),<a target=pfam href="http://pfam.sanger.ac.uk/family/Peptidase_S15">Peptidase_S15</a> (6),<a target=pfam href="http://pfam.sanger.ac.uk/family/DUF2974">DUF2974</a> (6),<a target=pfam href="http://pfam.sanger.ac.uk/family/Lipase_3">Lipase_3</a> (4),<a target=pfam href="http://pfam.sanger.ac.uk/family/Esterase">Esterase</a> (4),<a target=pfam href="http://pfam.sanger.ac.uk/family/DUF2424">DUF2424</a> (2),<a target=pfam href="http://pfam.sanger.ac.uk/family/Esterase_phd">Esterase_phd</a> (2),<a target=pfam href="http://pfam.sanger.ac.uk/family/Thioesterase">Thioesterase</a> (2)</td>
+</tr>
+<tr>
+   <td><a target=seqfam href="../../RozOrth_I18.orthomcl_seqs/OG18_9919.pep.fa">OG18_9919</a></td>
+  <td>1</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>2</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>1</td>
+  <td>0</td>
+  <td>0</td>
+  <td>2</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td><a target=pfam href="http://pfam.sanger.ac.uk/family/DUF3405">DUF3405</a> (14),<a target=pfam href="http://pfam.sanger.ac.uk/family/YHS">YHS</a> (2)</td>
+</tr>
+<tr>
+   <td><a target=seqfam href="../../RozOrth_I18.orthomcl_seqs/OG18_12053.pep.fa">OG18_12053</a></td>
+  <td>1</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>2</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>1</td>
+  <td>0</td>
+  <td>0</td>
+  <td>1</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td><a target=pfam href="http://pfam.sanger.ac.uk/family/DUF1100">DUF1100</a> (10),<a target=pfam href="http://pfam.sanger.ac.uk/family/Abhydrolase_5">Abhydrolase_5</a> (10),<a target=pfam href="http://pfam.sanger.ac.uk/family/Abhydrolase_6">Abhydrolase_6</a> (10),<a target=pfam href="http://pfam.sanger.ac.uk/family/Peptidase_S15">Peptidase_S15</a> (8),<a target=pfam href="http://pfam.sanger.ac.uk/family/Peptidase_S9">Peptidase_S9</a> (8),<a target=pfam href="http://pfam.sanger.ac.uk/family/Ndr">Ndr</a> (4),<a target=pfam href="http://pfam.sanger.ac.uk/family/DLH">DLH</a> (4),<a target=pfam href="http://pfam.sanger.ac.uk/family/Abhydrolase_1">Abhydrolase_1</a> (4),<a target=pfam href="http://pfam.sanger.ac.uk/family/BAAT_C">BAAT_C</a> (4),<a target=pfam href="http://pfam.sanger.ac.uk/family/Esterase">Esterase</a> (4),<a target=pfam href="http://pfam.sanger.ac.uk/family/Chlorophyllase">Chlorophyllase</a> (2),<a target=pfam href="http://pfam.sanger.ac.uk/family/Abhydrolase_3">Abhydrolase_3</a> (2),<a target=pfam href="http://pfam.sanger.ac.uk/family/Chlorophyllase2">Chlorophyllase2</a> (2),<a target=pfam href="http://pfam.sanger.ac.uk/family/Esterase_phd">Esterase_phd</a> (2),<a target=pfam href="http://pfam.sanger.ac.uk/family/Abhydrolase_2">Abhydrolase_2</a> (2)</td>
+</tr>
+<tr>
+   <td><a target=seqfam href="../../RozOrth_I18.orthomcl_seqs/OG18_12058.pep.fa">OG18_12058</a></td>
+  <td>2</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>1</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>1</td>
+  <td>0</td>
+  <td>0</td>
+  <td>1</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td><a target=pfam href="http://pfam.sanger.ac.uk/family/ADH_N">ADH_N</a> (10),<a target=pfam href="http://pfam.sanger.ac.uk/family/ADH_zinc_N">ADH_zinc_N</a> (8),<a target=pfam href="http://pfam.sanger.ac.uk/family/DUF2541">DUF2541</a> (2),<a target=pfam href="http://pfam.sanger.ac.uk/family/DUF1645">DUF1645</a> (2),<a target=pfam href="http://pfam.sanger.ac.uk/family/NAD_binding_10">NAD_binding_10</a> (2),<a target=pfam href="http://pfam.sanger.ac.uk/family/MepB">MepB</a> (2),<a target=pfam href="http://pfam.sanger.ac.uk/family/ADH_zinc_N_2">ADH_zinc_N_2</a> (2)</td>
+</tr>
+<tr>
+   <td><a target=seqfam href="../../RozOrth_I18.orthomcl_seqs/OG18_12060.pep.fa">OG18_12060</a></td>
+  <td>2</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>1</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>1</td>
+  <td>0</td>
+  <td>0</td>
+  <td>1</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td><a target=pfam href="http://pfam.sanger.ac.uk/family/p450">p450</a> (10)</td>
+</tr>
+<tr>
+   <td><a target=seqfam href="../../RozOrth_I18.orthomcl_seqs/OG18_14695.pep.fa">OG18_14695</a></td>
+  <td>1</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>1</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>1</td>
+  <td>0</td>
+  <td>0</td>
+  <td>1</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td><a target=pfam href="http://pfam.sanger.ac.uk/family/SnoaL_4">SnoaL_4</a> (2),<a target=pfam href="http://pfam.sanger.ac.uk/family/DUF3225">DUF3225</a> (2),<a target=pfam href="http://pfam.sanger.ac.uk/family/DUF1964">DUF1964</a> (2),<a target=pfam href="http://pfam.sanger.ac.uk/family/SnoaL_2">SnoaL_2</a> (2)</td>
+</tr>
+<tr>
+   <td><a target=seqfam href="../../RozOrth_I18.orthomcl_seqs/OG18_14708.pep.fa">OG18_14708</a></td>
+  <td>1</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>1</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>1</td>
+  <td>0</td>
+  <td>0</td>
+  <td>1</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td><a target=pfam href="http://pfam.sanger.ac.uk/family/Mito_carr">Mito_carr</a> (24),<a target=pfam href="http://pfam.sanger.ac.uk/family/SR-25">SR-25</a> (2)</td>
+</tr>
+<tr>
+   <td><a target=seqfam href="../../RozOrth_I18.orthomcl_seqs/OG18_14709.pep.fa">OG18_14709</a></td>
+  <td>1</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>1</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>1</td>
+  <td>0</td>
+  <td>0</td>
+  <td>1</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td><a target=pfam href="http://pfam.sanger.ac.uk/family/NMO">NMO</a> (8),<a target=pfam href="http://pfam.sanger.ac.uk/family/TIM-br_sig_trns">TIM-br_sig_trns</a> (8),<a target=pfam href="http://pfam.sanger.ac.uk/family/PcrB">PcrB</a> (2),<a target=pfam href="http://pfam.sanger.ac.uk/family/Amidohydro_2">Amidohydro_2</a> (2),<a target=pfam href="http://pfam.sanger.ac.uk/family/CinA">CinA</a> (2)</td>
+</tr>
+<tr>
+   <td><a target=seqfam href="../../RozOrth_I18.orthomcl_seqs/OG18_14710.pep.fa">OG18_14710</a></td>
+  <td>1</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>1</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>1</td>
+  <td>0</td>
+  <td>0</td>
+  <td>1</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td><a target=pfam href="http://pfam.sanger.ac.uk/family/UPF0261">UPF0261</a> (8),<a target=pfam href="http://pfam.sanger.ac.uk/family/NAD_Gly3P_dh_N">NAD_Gly3P_dh_N</a> (2)</td>
+</tr>
+<tr>
+   <td><a target=seqfam href="../../RozOrth_I18.orthomcl_seqs/OG18_14753.pep.fa">OG18_14753</a></td>
+  <td>1</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>1</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>1</td>
+  <td>0</td>
+  <td>0</td>
+  <td>1</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td><a target=pfam href="http://pfam.sanger.ac.uk/family/TPR_12">TPR_12</a> (14),<a target=pfam href="http://pfam.sanger.ac.uk/family/TPR_11">TPR_11</a> (12),<a target=pfam href="http://pfam.sanger.ac.uk/family/SHNi-TPR">SHNi-TPR</a> (8),<a target=pfam href="http://pfam.sanger.ac.uk/family/TPR_3">TPR_3</a> (4),<a target=pfam href="http://pfam.sanger.ac.uk/family/TPR_16">TPR_16</a> (4),<a target=pfam href="http://pfam.sanger.ac.uk/family/TPR_10">TPR_10</a> (4),<a target=pfam href="http://pfam.sanger.ac.uk/family/TPR_1">TPR_1</a> (2),<a target=pfam href="http://pfam.sanger.ac.uk/family/DASH_Spc34">DASH_Spc34</a> (2),<a target=pfam href="http://pfam.sanger.ac.uk/family/MIT">MIT</a> (2),<a target=pfam href="http://pfam.sanger.ac.uk/family/Mnd1">Mnd1</a> (2),<a target=pfam href="http://pfam.sanger.ac.uk/family/TPR_2">TPR_2</a> (2),<a target=pfam href="http://pfam.sanger.ac.uk/family/TPR_14">TPR_14</a> (2),<a target=pfam href="http://pfam.sanger.ac.uk/family/TFIIA">TFIIA</a> (2),<a target=pfam href="http://pfam.sanger.ac.uk/family/APG6">APG6</a> (2),<a target=pfam href="http://pfam.sanger.ac.uk/family/TPR_7">TPR_7</a> (2),<a target=pfam href="http://pfam.sanger.ac.uk/family/Cwf_Cwc_15">Cwf_Cwc_15</a> (2),<a target=pfam href="http://pfam.sanger.ac.uk/family/TPR_17">TPR_17</a> (2)</td>
+</tr>
+<tr>
+   <td><a target=seqfam href="../../RozOrth_I18.orthomcl_seqs/OG18_14791.pep.fa">OG18_14791</a></td>
+  <td>1</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>1</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>1</td>
+  <td>0</td>
+  <td>0</td>
+  <td>1</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td><a target=pfam href="http://pfam.sanger.ac.uk/family/MFS_1_like">MFS_1_like</a> (8),<a target=pfam href="http://pfam.sanger.ac.uk/family/MFS_1">MFS_1</a> (8),<a target=pfam href="http://pfam.sanger.ac.uk/family/DUF2530">DUF2530</a> (2),<a target=pfam href="http://pfam.sanger.ac.uk/family/BLVR">BLVR</a> (2),<a target=pfam href="http://pfam.sanger.ac.uk/family/Atrophin-1">Atrophin-1</a> (2),<a target=pfam href="http://pfam.sanger.ac.uk/family/DUF872">DUF872</a> (2)</td>
+</tr>
+<tr>
+   <td><a target=seqfam href="../../RozOrth_I18.orthomcl_seqs/OG18_14800.pep.fa">OG18_14800</a></td>
+  <td>1</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>1</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>1</td>
+  <td>0</td>
+  <td>0</td>
+  <td>1</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td><a target=pfam href="http://pfam.sanger.ac.uk/family/FAD_binding_3">FAD_binding_3</a> (16),<a target=pfam href="http://pfam.sanger.ac.uk/family/DAO">DAO</a> (12),<a target=pfam href="http://pfam.sanger.ac.uk/family/Pyr_redox_2">Pyr_redox_2</a> (8),<a target=pfam href="http://pfam.sanger.ac.uk/family/NAD_binding_8">NAD_binding_8</a> (8),<a target=pfam href="http://pfam.sanger.ac.uk/family/FAD_binding_2">FAD_binding_2</a> (8),<a target=pfam href="http://pfam.sanger.ac.uk/family/Pyr_redox">Pyr_redox</a> (8),<a target=pfam href="http://pfam.sanger.ac.uk/family/HI0933_like">HI0933_like</a> (8),<a target=pfam href="http://pfam.sanger.ac.uk/family/GIDA">GIDA</a> (6),<a target=pfam href="http://pfam.sanger.ac.uk/family/FAD_oxidored">FAD_oxidored</a> (6),<a target=pfam href="http://pfam.sanger.ac.uk/family/AlaDh_PNT_C">AlaDh_PNT_C</a> (6),<a target=pfam href="http://pfam.sanger.ac.uk/family/Thi4">Thi4</a> (6),<a target=pfam href="http://pfam.sanger.ac.uk/family/Lycopene_cycl">Lycopene_cycl</a> (6),<a target=pfam href="http://pfam.sanger.ac.uk/family/Trp_halogenase">Trp_halogenase</a> (4),<a target=pfam href="http://pfam.sanger.ac.uk/family/Pyr_redox_3">Pyr_redox_3</a> (4),<a target=pfam href="http://pfam.sanger.ac.uk/family/NAD_binding_9">NAD_binding_9</a> (4),<a target=pfam href="http://pfam.sanger.ac.uk/family/DUF1344">DUF1344</a> (2),<a target=pfam href="http://pfam.sanger.ac.uk/family/SE">SE</a> (2),<a target=pfam href="http://pfam.sanger.ac.uk/family/NAD_Gly3P_dh_N">NAD_Gly3P_dh_N</a> (2),<a target=pfam href="http://pfam.sanger.ac.uk/family/ApbA">ApbA</a> (2)</td>
+</tr>
+<tr>
+   <td><a target=seqfam href="../../RozOrth_I18.orthomcl_seqs/OG18_14832.pep.fa">OG18_14832</a></td>
+  <td>1</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>1</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>1</td>
+  <td>0</td>
+  <td>0</td>
+  <td>1</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td><a target=pfam href="http://pfam.sanger.ac.uk/family/CPSF100_C">CPSF100_C</a> (8),<a target=pfam href="http://pfam.sanger.ac.uk/family/Beta-Casp">Beta-Casp</a> (8),<a target=pfam href="http://pfam.sanger.ac.uk/family/RMMBL">RMMBL</a> (6),<a target=pfam href="http://pfam.sanger.ac.uk/family/Lactamase_B">Lactamase_B</a> (4),<a target=pfam href="http://pfam.sanger.ac.uk/family/Lactamase_B_2">Lactamase_B_2</a> (2),<a target=pfam href="http://pfam.sanger.ac.uk/family/PGM_PMM_IV">PGM_PMM_IV</a> (2)</td>
+</tr>
+<tr>
+   <td><a target=seqfam href="../../RozOrth_I18.orthomcl_seqs/OG18_14846.pep.fa">OG18_14846</a></td>
+  <td>1</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>1</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>1</td>
+  <td>0</td>
+  <td>0</td>
+  <td>1</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td><a target=pfam href="http://pfam.sanger.ac.uk/family/DUF3292">DUF3292</a> (10)</td>
+</tr>
+<tr>
+   <td><a target=seqfam href="../../RozOrth_I18.orthomcl_seqs/OG18_14859.pep.fa">OG18_14859</a></td>
+  <td>1</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>1</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>1</td>
+  <td>0</td>
+  <td>0</td>
+  <td>1</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td><a target=pfam href="http://pfam.sanger.ac.uk/family/Aldedh">Aldedh</a> (8),<a target=pfam href="http://pfam.sanger.ac.uk/family/LuxC">LuxC</a> (4),<a target=pfam href="http://pfam.sanger.ac.uk/family/KfrA_N">KfrA_N</a> (2),<a target=pfam href="http://pfam.sanger.ac.uk/family/N2227">N2227</a> (2)</td>
+</tr>
+<tr>
+   <td><a target=seqfam href="../../RozOrth_I18.orthomcl_seqs/OG18_14860.pep.fa">OG18_14860</a></td>
+  <td>1</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>1</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>1</td>
+  <td>0</td>
+  <td>0</td>
+  <td>1</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td><a target=pfam href="http://pfam.sanger.ac.uk/family/Ribonuclease">Ribonuclease</a> (8)</td>
+</tr>
+<tr>
+   <td><a target=seqfam href="../../RozOrth_I18.orthomcl_seqs/OG18_14869.pep.fa">OG18_14869</a></td>
+  <td>1</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>1</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>1</td>
+  <td>0</td>
+  <td>0</td>
+  <td>1</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td><a target=pfam href="http://pfam.sanger.ac.uk/family/SNF5">SNF5</a> (10),<a target=pfam href="http://pfam.sanger.ac.uk/family/GATA">GATA</a> (6),<a target=pfam href="http://pfam.sanger.ac.uk/family/DUF2076">DUF2076</a> (2)</td>
+</tr>
+<tr>
+   <td><a target=seqfam href="../../RozOrth_I18.orthomcl_seqs/OG18_14886.pep.fa">OG18_14886</a></td>
+  <td>1</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>1</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>1</td>
+  <td>0</td>
+  <td>0</td>
+  <td>1</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td><a target=pfam href="http://pfam.sanger.ac.uk/family/CwfJ_C_1">CwfJ_C_1</a> (8),<a target=pfam href="http://pfam.sanger.ac.uk/family/DcpS_C">DcpS_C</a> (8),<a target=pfam href="http://pfam.sanger.ac.uk/family/HIT">HIT</a> (8),<a target=pfam href="http://pfam.sanger.ac.uk/family/Peptidase_C80">Peptidase_C80</a> (2)</td>
+</tr>
+<tr>
+   <td><a target=seqfam href="../../RozOrth_I18.orthomcl_seqs/OG18_14893.pep.fa">OG18_14893</a></td>
+  <td>1</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>1</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>1</td>
+  <td>0</td>
+  <td>0</td>
+  <td>1</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td><a target=pfam href="http://pfam.sanger.ac.uk/family/MFS_1">MFS_1</a> (16),<a target=pfam href="http://pfam.sanger.ac.uk/family/Sugar_tr">Sugar_tr</a> (8),<a target=pfam href="http://pfam.sanger.ac.uk/family/OATP">OATP</a> (6),<a target=pfam href="http://pfam.sanger.ac.uk/family/DUF1228">DUF1228</a> (4),<a target=pfam href="http://pfam.sanger.ac.uk/family/DUF1810">DUF1810</a> (2),<a target=pfam href="http://pfam.sanger.ac.uk/family/MFS_3">MFS_3</a> (2)</td>
+</tr>
+<tr>
+   <td><a target=seqfam href="../../RozOrth_I18.orthomcl_seqs/OG18_14907.pep.fa">OG18_14907</a></td>
+  <td>1</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>1</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>1</td>
+  <td>0</td>
+  <td>0</td>
+  <td>1</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td><a target=pfam href="http://pfam.sanger.ac.uk/family/IPP-2">IPP-2</a> (16),<a target=pfam href="http://pfam.sanger.ac.uk/family/DUF3410">DUF3410</a> (4),<a target=pfam href="http://pfam.sanger.ac.uk/family/Corona_nucleoca">Corona_nucleoca</a> (2)</td>
+</tr>
+<tr>
+   <td><a target=seqfam href="../../RozOrth_I18.orthomcl_seqs/OG18_14935.pep.fa">OG18_14935</a></td>
+  <td>1</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>1</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>1</td>
+  <td>0</td>
+  <td>0</td>
+  <td>1</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td><a target=pfam href="http://pfam.sanger.ac.uk/family/ABC_membrane">ABC_membrane</a> (16),<a target=pfam href="http://pfam.sanger.ac.uk/family/ABC_tran">ABC_tran</a> (16),<a target=pfam href="http://pfam.sanger.ac.uk/family/AAA_21">AAA_21</a> (14),<a target=pfam href="http://pfam.sanger.ac.uk/family/AAA_16">AAA_16</a> (12),<a target=pfam href="http://pfam.sanger.ac.uk/family/AAA_29">AAA_29</a> (12),<a target=pfam href="http://pfam.sanger.ac.uk/family/AAA_22">AAA_22</a> (12),<a target=pfam href="http://pfam.sanger.ac.uk/family/DUF258">DUF258</a> (8),<a target=pfam href="http://pfam.sanger.ac.uk/family/AAA_25">AAA_25</a> (8),<a target=pfam href="http://pfam.sanger.ac.uk/family/SMC_N">SMC_N</a> (8),<a target=pfam href="http://pfam.sanger.ac.uk/family/FtsK_SpoIIIE">FtsK_SpoIIIE</a> (6),<a target=pfam href="http://pfam.sanger.ac.uk/family/Miro">Miro</a> (6),<a target=pfam href="http://pfam.sanger.ac.uk/family/AAA_10">AAA_10</a> (6),<a target=pfam href="http://pfam.sanger.ac.uk/family/SbcCD_C">SbcCD_C</a> (4),<a target=pfam href="http://pfam.sanger.ac.uk/family/AAA_33">AAA_33</a> (4),<a target=pfam href="http://pfam.sanger.ac.uk/family/MMR_HSR1">MMR_HSR1</a> (4),<a target=pfam href="http://pfam.sanger.ac.uk/family/DUF87">DUF87</a> (2),<a target=pfam href="http://pfam.sanger.ac.uk/family/Zeta_toxin">Zeta_toxin</a> (2),<a target=pfam href="http://pfam.sanger.ac.uk/family/UPF0079">UPF0079</a> (2),<a target=pfam href="http://pfam.sanger.ac.uk/family/T2SE">T2SE</a> (2),<a target=pfam href="http://pfam.sanger.ac.uk/family/Arch_ATPase">Arch_ATPase</a> (2),<a target=pfam href="http://pfam.sanger.ac.uk/family/AAA_23">AAA_23</a> (2),<a target=pfam href="http://pfam.sanger.ac.uk/family/MobB">MobB</a> (2),<a target=pfam href="http://pfam.sanger.ac.uk/family/AAA_14">AAA_14</a> (2),<a target=pfam href="http://pfam.sanger.ac.uk/family/ATP-synt_ab">ATP-synt_ab</a> (2),<a target=pfam href="http://pfam.sanger.ac.uk/family/AAA_17">AAA_17</a> (2),<a target=pfam href="http://pfam.sanger.ac.uk/family/Guanylate_kin">Guanylate_kin</a> (2)</td>
+</tr>
+<tr>
+   <td><a target=seqfam href="../../RozOrth_I18.orthomcl_seqs/OG18_15004.pep.fa">OG18_15004</a></td>
+  <td>1</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>1</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>1</td>
+  <td>0</td>
+  <td>0</td>
+  <td>1</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td><a target=pfam href="http://pfam.sanger.ac.uk/family/PGAP1">PGAP1</a> (6),<a target=pfam href="http://pfam.sanger.ac.uk/family/Abhydrolase_6">Abhydrolase_6</a> (4),<a target=pfam href="http://pfam.sanger.ac.uk/family/Abhydrolase_1">Abhydrolase_1</a> (2),<a target=pfam href="http://pfam.sanger.ac.uk/family/Imm1">Imm1</a> (2)</td>
+</tr>
+<tr>
+   <td><a target=seqfam href="../../RozOrth_I18.orthomcl_seqs/OG18_15012.pep.fa">OG18_15012</a></td>
+  <td>1</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>1</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>1</td>
+  <td>0</td>
+  <td>0</td>
+  <td>1</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td><a target=pfam href="http://pfam.sanger.ac.uk/family/Amidohydro_2">Amidohydro_2</a> (8),<a target=pfam href="http://pfam.sanger.ac.uk/family/Pan_kinase">Pan_kinase</a> (2)</td>
+</tr>
+<tr>
+   <td><a target=seqfam href="../../RozOrth_I18.orthomcl_seqs/OG18_15013.pep.fa">OG18_15013</a></td>
+  <td>1</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>1</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>1</td>
+  <td>0</td>
+  <td>0</td>
+  <td>1</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td><a target=pfam href="http://pfam.sanger.ac.uk/family/Acyl-CoA_dh_1">Acyl-CoA_dh_1</a> (8),<a target=pfam href="http://pfam.sanger.ac.uk/family/Acyl-CoA_dh_N">Acyl-CoA_dh_N</a> (8),<a target=pfam href="http://pfam.sanger.ac.uk/family/Acyl-CoA_dh_M">Acyl-CoA_dh_M</a> (8),<a target=pfam href="http://pfam.sanger.ac.uk/family/Acyl-CoA_dh_2">Acyl-CoA_dh_2</a> (8),<a target=pfam href="http://pfam.sanger.ac.uk/family/PGM_PMM_III">PGM_PMM_III</a> (2)</td>
+</tr>
+<tr>
+   <td><a target=seqfam href="../../RozOrth_I18.orthomcl_seqs/OG18_15014.pep.fa">OG18_15014</a></td>
+  <td>1</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>1</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>1</td>
+  <td>0</td>
+  <td>0</td>
+  <td>1</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td><a target=pfam href="http://pfam.sanger.ac.uk/family/Kelch_4">Kelch_4</a> (20),<a target=pfam href="http://pfam.sanger.ac.uk/family/Kelch_6">Kelch_6</a> (20),<a target=pfam href="http://pfam.sanger.ac.uk/family/Glyoxal_oxid_N">Glyoxal_oxid_N</a> (16),<a target=pfam href="http://pfam.sanger.ac.uk/family/Kelch_1">Kelch_1</a> (14),<a target=pfam href="http://pfam.sanger.ac.uk/family/Kelch_3">Kelch_3</a> (10),<a target=pfam href="http://pfam.sanger.ac.uk/family/Kelch_2">Kelch_2</a> (8),<a target=pfam href="http://pfam.sanger.ac.uk/family/DUF1929">DUF1929</a> (6),<a target=pfam href="http://pfam.sanger.ac.uk/family/F5_F8_type_C">F5_F8_type_C</a> (6),<a target=pfam href="http://pfam.sanger.ac.uk/family/E_raikovi_mat">E_raikovi_mat</a> (2),<a target=pfam href="http://pfam.sanger.ac.uk/family/APC10">APC10</a> (2),<a target=pfam href="http://pfam.sanger.ac.uk/family/PAN_4">PAN_4</a> (2),<a target=pfam href="http://pfam.sanger.ac.uk/family/SEA">SEA</a> (2)</td>
+</tr>
+<tr>
+   <td><a target=seqfam href="../../RozOrth_I18.orthomcl_seqs/OG18_15016.pep.fa">OG18_15016</a></td>
+  <td>1</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>1</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>1</td>
+  <td>0</td>
+  <td>0</td>
+  <td>1</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td><a target=pfam href="http://pfam.sanger.ac.uk/family/Acyl-CoA_dh_1">Acyl-CoA_dh_1</a> (8),<a target=pfam href="http://pfam.sanger.ac.uk/family/Acyl-CoA_dh_2">Acyl-CoA_dh_2</a> (8),<a target=pfam href="http://pfam.sanger.ac.uk/family/Acyl-CoA_dh_N">Acyl-CoA_dh_N</a> (6),<a target=pfam href="http://pfam.sanger.ac.uk/family/Acyl-CoA_dh_M">Acyl-CoA_dh_M</a> (4),<a target=pfam href="http://pfam.sanger.ac.uk/family/HpaB_N">HpaB_N</a> (2),<a target=pfam href="http://pfam.sanger.ac.uk/family/NDUF_B7">NDUF_B7</a> (2)</td>
+</tr>
+<tr>
+   <td><a target=seqfam href="../../RozOrth_I18.orthomcl_seqs/OG18_15020.pep.fa">OG18_15020</a></td>
+  <td>1</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>1</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>1</td>
+  <td>0</td>
+  <td>0</td>
+  <td>1</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td><a target=pfam href="http://pfam.sanger.ac.uk/family/Pyr_redox_2">Pyr_redox_2</a> (12),<a target=pfam href="http://pfam.sanger.ac.uk/family/FMO-like">FMO-like</a> (8),<a target=pfam href="http://pfam.sanger.ac.uk/family/Pyr_redox">Pyr_redox</a> (8),<a target=pfam href="http://pfam.sanger.ac.uk/family/NAD_binding_8">NAD_binding_8</a> (8),<a target=pfam href="http://pfam.sanger.ac.uk/family/Thi4">Thi4</a> (8),<a target=pfam href="http://pfam.sanger.ac.uk/family/Shikimate_DH">Shikimate_DH</a> (8),<a target=pfam href="http://pfam.sanger.ac.uk/family/Pyr_redox_3">Pyr_redox_3</a> (8),<a target=pfam href="http://pfam.sanger.ac.uk/family/K_oxygenase">K_oxygenase</a> (8),<a target=pfam href="http://pfam.sanger.ac.uk/family/Lycopene_cycl">Lycopene_cycl</a> (6),<a target=pfam href="http://pfam.sanger.ac.uk/family/DAO">DAO</a> (6),<a target=pfam href="http://pfam.sanger.ac.uk/family/Amino_oxidase">Amino_oxidase</a> (4),<a target=pfam href="http://pfam.sanger.ac.uk/family/FAD_binding_2">FAD_binding_2</a> (4),<a target=pfam href="http://pfam.sanger.ac.uk/family/NAD_binding_7">NAD_binding_7</a> (4),<a target=pfam href="http://pfam.sanger.ac.uk/family/HI0933_like">HI0933_like</a> (2)</td>
+</tr>
+</tbody>
+</table>
+</BODY><FOOT></FOOT></HTML>

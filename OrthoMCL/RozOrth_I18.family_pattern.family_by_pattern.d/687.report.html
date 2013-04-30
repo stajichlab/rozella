@@ -1,0 +1,115 @@
+<HTML><HEAD><title>families with pattern 687</title>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+
+    <script type="text/javascript">
+        function UpdateTableHeaders() {
+            $("div.divTableWithFloatingHeader").each(function() {
+                var originalHeaderRow = $(".tableFloatingHeaderOriginal", this);
+                var floatingHeaderRow = $(".tableFloatingHeader", this);
+                var offset = $(this).offset();
+                var scrollTop = $(window).scrollTop();
+                if ((scrollTop > offset.top) && (scrollTop < offset.top + $(this).height())) {
+                    floatingHeaderRow.css("visibility", "visible");
+                    floatingHeaderRow.css("top", Math.min(scrollTop - offset.top, $(this).height() - floatingHeaderRow.height()) + "px");
+
+                    // Copy cell widths from original header
+                    $("th", floatingHeaderRow).each(function(index) {
+                        var cellWidth = $("th", originalHeaderRow).eq(index).css('width');
+                        $(this).css('width', cellWidth);
+                    });
+
+                    // Copy row width from whole table
+                    floatingHeaderRow.css("width", $(this).css("width"));
+                }
+                else {
+                    floatingHeaderRow.css("visibility", "hidden");
+                    floatingHeaderRow.css("top", "0px");
+                }
+            });
+        }
+
+        $(document).ready(function() {
+            $("table.tableWithFloatingHeader").each(function() {
+                $(this).wrap("<div class=\"divTableWithFloatingHeader\" style=\"position:relative\"></div>");
+
+                var originalHeaderRow = $("tr:first", this)
+                originalHeaderRow.before(originalHeaderRow.clone());
+                var clonedHeaderRow = $("tr:first", this)
+
+                clonedHeaderRow.addClass("tableFloatingHeader");
+                clonedHeaderRow.css("position", "absolute");
+                clonedHeaderRow.css("top", "0px");
+                clonedHeaderRow.css("left", $(this).css("margin-left"));
+                clonedHeaderRow.css("visibility", "hidden");
+
+                originalHeaderRow.addClass("tableFloatingHeaderOriginal");
+            });
+            UpdateTableHeaders();
+            $(window).scroll(UpdateTableHeaders);
+            $(window).resize(UpdateTableHeaders);
+        });
+    </script>
+
+<style>
+<!--
+th {
+    background-color: lightgrey;
+    border: 1px solid black;
+}
+td {
+    border: 1px solid black;
+}
+-->
+</style>
+</HEAD><BODY BGCOLOR="WHITE">
+<table class="tableWithFloatingHeader" style="border: 3px">
+<thead><tr>
+  <th>FAMILY</th><th>Afum</th><th>Agos</th><th>Aloc</th><th>Amac</th><th>Amoe</th><th>Bden</th><th>Ccin</th><th>Cint</th><th>Cmer</th><th>CneoA</th><th>Cowc</th><th>Crei</th><th>Ddis</th><th>Dmel</th><th>Ebie</th><th>Ecun</th><th>Eint</th><th>Hmag</th><th>Hpol</th><th>Mbre</th><th>Mver</th><th>Ncer</th><th>Ncra</th><th>NparERTm1</th><th>Pbla</th><th>PirE2</th><th>Pult</th><th>Rall</th><th>Rory</th><th>Scer</th><th>Spom</th><th>Spun</th><th>Sros</th><th>Sscl</th><th>Tgon</th><th>Tpse</th><th>Umay</th><th>Vcul</th><th>Wseb</th><th>Ylip</th><th>PFAM Domains</th></tr></thead>
+<tbody>
+<tr>
+   <td><a target=seqfam href="../../RozOrth_I18.orthomcl_seqs/OG18_1164.pep.fa">OG18_1164</a></td>
+  <td>1</td>
+  <td>1</td>
+  <td>1</td>
+  <td>1</td>
+  <td>2</td>
+  <td>1</td>
+  <td>1</td>
+  <td>1</td>
+  <td>0</td>
+  <td>2</td>
+  <td>0</td>
+  <td>1</td>
+  <td>0</td>
+  <td>1</td>
+  <td>1</td>
+  <td>1</td>
+  <td>1</td>
+  <td>1</td>
+  <td>0</td>
+  <td>1</td>
+  <td>1</td>
+  <td>1</td>
+  <td>1</td>
+  <td>1</td>
+  <td>1</td>
+  <td>1</td>
+  <td>1</td>
+  <td>1</td>
+  <td>1</td>
+  <td>1</td>
+  <td>1</td>
+  <td>1</td>
+  <td>1</td>
+  <td>1</td>
+  <td>1</td>
+  <td>1</td>
+  <td>1</td>
+  <td>1</td>
+  <td>1</td>
+  <td>1</td>
+  <td><a target=pfam href="http://pfam.sanger.ac.uk/family/Sec62">Sec62</a> (66),<a target=pfam href="http://pfam.sanger.ac.uk/family/DEP">DEP</a> (12),<a target=pfam href="http://pfam.sanger.ac.uk/family/OAD_gamma">OAD_gamma</a> (4),<a target=pfam href="http://pfam.sanger.ac.uk/family/Adaptin_binding">Adaptin_binding</a> (4),<a target=pfam href="http://pfam.sanger.ac.uk/family/Chordopox_L2">Chordopox_L2</a> (4),<a target=pfam href="http://pfam.sanger.ac.uk/family/DUF3413">DUF3413</a> (4),<a target=pfam href="http://pfam.sanger.ac.uk/family/TRP">TRP</a> (4),<a target=pfam href="http://pfam.sanger.ac.uk/family/DUF1385">DUF1385</a> (4),<a target=pfam href="http://pfam.sanger.ac.uk/family/Fig1">Fig1</a> (2),<a target=pfam href="http://pfam.sanger.ac.uk/family/DUF4023">DUF4023</a> (2),<a target=pfam href="http://pfam.sanger.ac.uk/family/MAP65_ASE1">MAP65_ASE1</a> (2),<a target=pfam href="http://pfam.sanger.ac.uk/family/DUF1275">DUF1275</a> (2),<a target=pfam href="http://pfam.sanger.ac.uk/family/DUF4181">DUF4181</a> (2),<a target=pfam href="http://pfam.sanger.ac.uk/family/Fun_ATP-synt_8">Fun_ATP-synt_8</a> (2),<a target=pfam href="http://pfam.sanger.ac.uk/family/Corona_M">Corona_M</a> (2),<a target=pfam href="http://pfam.sanger.ac.uk/family/Med11">Med11</a> (2),<a target=pfam href="http://pfam.sanger.ac.uk/family/Claudin_2">Claudin_2</a> (2),<a target=pfam href="http://pfam.sanger.ac.uk/family/Gryzun-like">Gryzun-like</a> (2),<a target=pfam href="http://pfam.sanger.ac.uk/family/VIT1">VIT1</a> (2),<a target=pfam href="http://pfam.sanger.ac.uk/family/DUF2346">DUF2346</a> (2),<a target=pfam href="http://pfam.sanger.ac.uk/family/Mem_trans">Mem_trans</a> (2),<a target=pfam href="http://pfam.sanger.ac.uk/family/OPT">OPT</a> (2),<a target=pfam href="http://pfam.sanger.ac.uk/family/DUF1212">DUF1212</a> (2),<a target=pfam href="http://pfam.sanger.ac.uk/family/Zip">Zip</a> (2),<a target=pfam href="http://pfam.sanger.ac.uk/family/Peripla_BP_3">Peripla_BP_3</a> (2),<a target=pfam href="http://pfam.sanger.ac.uk/family/7TMR-DISM_7TM">7TMR-DISM_7TM</a> (2),<a target=pfam href="http://pfam.sanger.ac.uk/family/PrgI">PrgI</a> (2),<a target=pfam href="http://pfam.sanger.ac.uk/family/DUF4027">DUF4027</a> (2),<a target=pfam href="http://pfam.sanger.ac.uk/family/DUF2873">DUF2873</a> (2),<a target=pfam href="http://pfam.sanger.ac.uk/family/RHH_4">RHH_4</a> (2),<a target=pfam href="http://pfam.sanger.ac.uk/family/CDC45">CDC45</a> (2),<a target=pfam href="http://pfam.sanger.ac.uk/family/CDC37_N">CDC37_N</a> (2),<a target=pfam href="http://pfam.sanger.ac.uk/family/KASH">KASH</a> (2),<a target=pfam href="http://pfam.sanger.ac.uk/family/DUF1916">DUF1916</a> (2),<a target=pfam href="http://pfam.sanger.ac.uk/family/DUF1510">DUF1510</a> (2),<a target=pfam href="http://pfam.sanger.ac.uk/family/DUF1848">DUF1848</a> (2),<a target=pfam href="http://pfam.sanger.ac.uk/family/Tetraspannin">Tetraspannin</a> (2),<a target=pfam href="http://pfam.sanger.ac.uk/family/MSA-2c">MSA-2c</a> (2),<a target=pfam href="http://pfam.sanger.ac.uk/family/DUF3296">DUF3296</a> (2)</td>
+</tr>
+</tbody>
+</table>
+</BODY><FOOT></FOOT></HTML>

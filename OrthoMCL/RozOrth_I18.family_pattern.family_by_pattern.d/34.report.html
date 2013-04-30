@@ -1,0 +1,115 @@
+<HTML><HEAD><title>families with pattern 34</title>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+
+    <script type="text/javascript">
+        function UpdateTableHeaders() {
+            $("div.divTableWithFloatingHeader").each(function() {
+                var originalHeaderRow = $(".tableFloatingHeaderOriginal", this);
+                var floatingHeaderRow = $(".tableFloatingHeader", this);
+                var offset = $(this).offset();
+                var scrollTop = $(window).scrollTop();
+                if ((scrollTop > offset.top) && (scrollTop < offset.top + $(this).height())) {
+                    floatingHeaderRow.css("visibility", "visible");
+                    floatingHeaderRow.css("top", Math.min(scrollTop - offset.top, $(this).height() - floatingHeaderRow.height()) + "px");
+
+                    // Copy cell widths from original header
+                    $("th", floatingHeaderRow).each(function(index) {
+                        var cellWidth = $("th", originalHeaderRow).eq(index).css('width');
+                        $(this).css('width', cellWidth);
+                    });
+
+                    // Copy row width from whole table
+                    floatingHeaderRow.css("width", $(this).css("width"));
+                }
+                else {
+                    floatingHeaderRow.css("visibility", "hidden");
+                    floatingHeaderRow.css("top", "0px");
+                }
+            });
+        }
+
+        $(document).ready(function() {
+            $("table.tableWithFloatingHeader").each(function() {
+                $(this).wrap("<div class=\"divTableWithFloatingHeader\" style=\"position:relative\"></div>");
+
+                var originalHeaderRow = $("tr:first", this)
+                originalHeaderRow.before(originalHeaderRow.clone());
+                var clonedHeaderRow = $("tr:first", this)
+
+                clonedHeaderRow.addClass("tableFloatingHeader");
+                clonedHeaderRow.css("position", "absolute");
+                clonedHeaderRow.css("top", "0px");
+                clonedHeaderRow.css("left", $(this).css("margin-left"));
+                clonedHeaderRow.css("visibility", "hidden");
+
+                originalHeaderRow.addClass("tableFloatingHeaderOriginal");
+            });
+            UpdateTableHeaders();
+            $(window).scroll(UpdateTableHeaders);
+            $(window).resize(UpdateTableHeaders);
+        });
+    </script>
+
+<style>
+<!--
+th {
+    background-color: lightgrey;
+    border: 1px solid black;
+}
+td {
+    border: 1px solid black;
+}
+-->
+</style>
+</HEAD><BODY BGCOLOR="WHITE">
+<table class="tableWithFloatingHeader" style="border: 3px">
+<thead><tr>
+  <th>FAMILY</th><th>Afum</th><th>Agos</th><th>Aloc</th><th>Amac</th><th>Amoe</th><th>Bden</th><th>Ccin</th><th>Cint</th><th>Cmer</th><th>CneoA</th><th>Cowc</th><th>Crei</th><th>Ddis</th><th>Dmel</th><th>Ebie</th><th>Ecun</th><th>Eint</th><th>Hmag</th><th>Hpol</th><th>Mbre</th><th>Mver</th><th>Ncer</th><th>Ncra</th><th>NparERTm1</th><th>Pbla</th><th>PirE2</th><th>Pult</th><th>Rall</th><th>Rory</th><th>Scer</th><th>Spom</th><th>Spun</th><th>Sros</th><th>Sscl</th><th>Tgon</th><th>Tpse</th><th>Umay</th><th>Vcul</th><th>Wseb</th><th>Ylip</th><th>PFAM Domains</th></tr></thead>
+<tbody>
+<tr>
+   <td><a target=seqfam href="../../RozOrth_I18.orthomcl_seqs/OG18_49.pep.fa">OG18_49</a></td>
+  <td>3</td>
+  <td>0</td>
+  <td>0</td>
+  <td>10</td>
+  <td>0</td>
+  <td>95</td>
+  <td>6</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>3</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>2</td>
+  <td>0</td>
+  <td>1</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>3</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>1</td>
+  <td>0</td>
+  <td>1</td>
+  <td>0</td>
+  <td>0</td>
+  <td>1</td>
+  <td>0</td>
+  <td>0</td>
+  <td>1</td>
+  <td><a target=pfam href="http://pfam.sanger.ac.uk/family/DUF4246">DUF4246</a> (256),<a target=pfam href="http://pfam.sanger.ac.uk/family/Arm">Arm</a> (88),<a target=pfam href="http://pfam.sanger.ac.uk/family/Phage_integr_N2">Phage_integr_N2</a> (30),<a target=pfam href="http://pfam.sanger.ac.uk/family/2OG-FeII_Oxy_5">2OG-FeII_Oxy_5</a> (28),<a target=pfam href="http://pfam.sanger.ac.uk/family/Adaptin_N">Adaptin_N</a> (14),<a target=pfam href="http://pfam.sanger.ac.uk/family/PaO">PaO</a> (12),<a target=pfam href="http://pfam.sanger.ac.uk/family/Opacity">Opacity</a> (6),<a target=pfam href="http://pfam.sanger.ac.uk/family/Cnd1">Cnd1</a> (6),<a target=pfam href="http://pfam.sanger.ac.uk/family/2OG-FeII_Oxy_3">2OG-FeII_Oxy_3</a> (4),<a target=pfam href="http://pfam.sanger.ac.uk/family/HEAT">HEAT</a> (4),<a target=pfam href="http://pfam.sanger.ac.uk/family/Amidase">Amidase</a> (2),<a target=pfam href="http://pfam.sanger.ac.uk/family/DIL">DIL</a> (2),<a target=pfam href="http://pfam.sanger.ac.uk/family/Nop14">Nop14</a> (2),<a target=pfam href="http://pfam.sanger.ac.uk/family/DUF928">DUF928</a> (2),<a target=pfam href="http://pfam.sanger.ac.uk/family/HlyC">HlyC</a> (2),<a target=pfam href="http://pfam.sanger.ac.uk/family/CHASE4">CHASE4</a> (2),<a target=pfam href="http://pfam.sanger.ac.uk/family/Tex_N">Tex_N</a> (2),<a target=pfam href="http://pfam.sanger.ac.uk/family/DUF3116">DUF3116</a> (2),<a target=pfam href="http://pfam.sanger.ac.uk/family/MRF_C1">MRF_C1</a> (2),<a target=pfam href="http://pfam.sanger.ac.uk/family/DUF1926">DUF1926</a> (2),<a target=pfam href="http://pfam.sanger.ac.uk/family/EBV-NA3">EBV-NA3</a> (2),<a target=pfam href="http://pfam.sanger.ac.uk/family/PCRF">PCRF</a> (2),<a target=pfam href="http://pfam.sanger.ac.uk/family/HEAT_2">HEAT_2</a> (2),<a target=pfam href="http://pfam.sanger.ac.uk/family/BsmA">BsmA</a> (2),<a target=pfam href="http://pfam.sanger.ac.uk/family/Dopey_N">Dopey_N</a> (2),<a target=pfam href="http://pfam.sanger.ac.uk/family/3HBOH">3HBOH</a> (2),<a target=pfam href="http://pfam.sanger.ac.uk/family/ProQ">ProQ</a> (2)</td>
+</tr>
+</tbody>
+</table>
+</BODY><FOOT></FOOT></HTML>
