@@ -1,0 +1,5 @@
+SRA sample SRS415934
+SRA study SRA068184
+ Genomic DNA from zoospores Rozella allomycis CSF55
+ PacBio
+ Illumina PE
