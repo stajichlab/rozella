@@ -1,0 +1,59 @@
+==================================================
+file name: Rozella_k41_trim100_vecstrip.fa
+sequences:          1060
+total length:   11859951 bp  (11738423 bp excl N/X-runs)
+GC level:         34.85 %
+bases masked:     181689 bp ( 1.53 %)
+==================================================
+               number of      length   percentage
+               elements*    occupied  of sequence
+--------------------------------------------------
+Retroelements          226        55938 bp    0.47 %
+   SINEs:                0            0 bp    0.00 %
+   Penelope              1           17 bp    0.00 %
+   LINEs:                2           44 bp    0.00 %
+    CRE/SLACS            0            0 bp    0.00 %
+     L2/CR1/Rex          0            0 bp    0.00 %
+     R1/LOA/Jockey       0            0 bp    0.00 %
+     R2/R4/NeSL          0            0 bp    0.00 %
+     RTE/Bov-B           0            0 bp    0.00 %
+     L1/CIN4             0            0 bp    0.00 %
+   LTR elements:       224        55894 bp    0.47 %
+     BEL/Pao             0            0 bp    0.00 %
+     Ty1/Copia          86        16913 bp    0.14 %
+     Gypsy/DIRS1       137        38863 bp    0.33 %
+       Retroviral        0            0 bp    0.00 %
+
+DNA transposons         12          795 bp    0.01 %
+   hobo-Activator        2          141 bp    0.00 %
+   Tc1-IS630-Pogo        0            0 bp    0.00 %
+   En-Spm                0            0 bp    0.00 %
+   MuDR-IS905            0            0 bp    0.00 %
+   PiggyBac              0            0 bp    0.00 %
+   Tourist/Harbinger     6          400 bp    0.00 %
+   Other (Mirage,        1           31 bp    0.00 %
+    P-element, Transib)
+
+Rolling-circles          0            0 bp    0.00 %
+
+Unclassified:           10         1307 bp    0.01 %
+
+Total interspersed repeats:       58040 bp    0.49 %
+
+
+Small RNA:              13         2341 bp    0.02 %
+
+Satellites:              0            0 bp    0.00 %
+Simple repeats:        188        14554 bp    0.12 %
+Low complexity:       2301       106832 bp    0.90 %
+==================================================
+
+* most repeats fragmented by insertions or deletions
+  have been counted as one element
+                                                      
+
+The query species was assumed to be fungi         
+RepeatMasker version open-3.3.0 , sensitive mode
+                                 
+run with rmblastn version : 2.2.23+
+RepBase Update 20110920, RM database version 20110920
